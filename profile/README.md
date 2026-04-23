@@ -1,14 +1,14 @@
 # entertain-and-more
 
-**Games and entertainment with AI integration.**
+**Games and entertainment software with AI-assisted interaction layers.**
 
-entertain-and-more builds games that combine classic gameplay with modern AI capabilities — from LLM-powered chess opponents to full RPG control centers with JSON-RPC APIs.
+entertain-and-more explores playful software projects that combine classic game structures with modern AI features, from LLM-assisted chess to tabletop RPG control centers.
 
-## Our Projects
+## Public Projects
 
 | Project | Description |
 |---------|-------------|
-| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Text-based chess with 4 modes including Claude API integration |
-| [RPX Pro](https://github.com/entertain-and-more/rpx) | Pen & paper RPG control center with multi-map, soundboard, and LLM integration |
+| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Text-based chess with multiple play modes, including AI-assisted interaction |
+| [rpx](https://github.com/entertain-and-more/rpx) | Open-source pen-and-paper RPG control center with maps, soundboard support, and LLM integration |
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
