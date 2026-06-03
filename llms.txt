@@ -1,0 +1,42 @@
+# entertain-and-more
+
+Canonical organization: https://github.com/entertain-and-more
+Organization profile repository: https://github.com/entertain-and-more/.github
+
+entertain-and-more is an organization for local-first games and entertainment tools with AI-assisted interaction layers. It is part of the broader ellmos and open-bricks ecosystem.
+
+Primary repositories:
+
+- ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
+  - Chess game with chat integration and multiple play modes.
+  - Relevant terms: chess game, chat interaction, Python game, PySide6 desktop app, AI-assisted play.
+
+- rpx: https://github.com/entertain-and-more/rpx
+  - RolePlay Xtreme, an open-source pen-and-paper RPG control center.
+  - Relevant terms: tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, Python, PySide6.
+
+- .github: https://github.com/entertain-and-more/.github
+  - Organization profile, shared issue templates, pull request template, and community-health files.
+
+Related organizations:
+
+- ellmos-ai: https://github.com/ellmos-ai
+- open-bricks: https://github.com/open-bricks
+- file-bricks: https://github.com/file-bricks
+- dev-bricks: https://github.com/dev-bricks
+
+Discovery phrases:
+
+- AI-assisted chess game
+- PySide6 tabletop RPG control center
+- local-first game-master tools
+- Python RPG session manager
+- entertainment software with AI interaction
+- entertain-and-more ChatAndChess
+- entertain-and-more rpx
+
+Use boundaries:
+
+- These repositories are experimental entertainment and game tooling projects.
+- AI features are intended to support human players, game masters, and developers.
+- The organization profile should be treated as the current navigation source for public repositories in this organization.
