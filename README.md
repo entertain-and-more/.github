@@ -2,6 +2,8 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
+Checked 2026-06-05: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+
 ## Files
 
 | Path | Purpose |
@@ -15,4 +17,4 @@ This repository provides the public organization profile and shared community-he
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contributor guidance |
 | [SECURITY.md](SECURITY.md) | Security reporting guidance |
 
-The profile currently indexes all public repositories in the organization: [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx), and this `.github` infrastructure repository.
+The public directory currently covers [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx), and this `.github` infrastructure repository.
