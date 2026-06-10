@@ -7,7 +7,7 @@ entertain-and-more is an organization for local-first games and entertainment to
 
 Public repository directory:
 
-Checked: 2026-06-05
+Checked: 2026-06-11
 Public repository count: 3
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
