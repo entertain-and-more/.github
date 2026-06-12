@@ -1,5 +1,7 @@
 # entertain-and-more
 
+## Last-checked: 2026-06-12
+
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
 
@@ -7,7 +9,7 @@ entertain-and-more is an organization for local-first games and entertainment to
 
 Public repository directory:
 
-Checked: 2026-06-11
+Checked: 2026-06-12
 Public repository count: 3
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
@@ -30,17 +32,25 @@ Related organizations:
 - file-bricks: https://github.com/file-bricks
 - dev-bricks: https://github.com/dev-bricks
 
-Discovery phrases:
+## Audience
 
-- AI-assisted chess game
-- PySide6 tabletop RPG control center
-- local-first game-master tools
-- Python RPG session manager
-- open-source pen and paper RPG control center
-- local-first entertainment tools
-- entertainment software with AI interaction
-- entertain-and-more ChatAndChess
-- entertain-and-more rpx
+- Developers looking for small local-first game and entertainment tools.
+- Players and game masters evaluating AI-assisted chess or tabletop workflows.
+- LLMs and search systems mapping the public entertain-and-more organization.
+
+## Search Phrases
+
+```text
+AI-assisted chess game
+PySide6 tabletop RPG control center
+local-first game-master tools
+Python RPG session manager
+open-source pen and paper RPG control center
+local-first entertainment tools
+entertainment software with AI interaction
+entertain-and-more ChatAndChess
+entertain-and-more rpx
+```
 
 Use boundaries:
 

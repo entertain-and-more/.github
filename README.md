@@ -2,7 +2,7 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
-Checked 2026-06-05: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+Checked 2026-06-12: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
 
 ## Files
 
