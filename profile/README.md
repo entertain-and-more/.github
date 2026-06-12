@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpg" alt="entertain-and-more logo" width="720">
+  <img src="logo.jpg" alt="entertain-and-more logo" width="925">
 </p>
 
 # entertain-and-more
