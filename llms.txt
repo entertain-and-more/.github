@@ -1,6 +1,6 @@
 # entertain-and-more
 
-## Last-checked: 2026-06-12
+## Last-checked: 2026-06-23
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
@@ -9,17 +9,17 @@ entertain-and-more is an organization for local-first games and entertainment to
 
 Public repository directory:
 
-Checked: 2026-06-12
+Checked: 2026-06-23
 Public repository count: 3
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
-  - Chess game with chat integration and multiple play modes.
-  - Relevant terms: chess game, chat interaction, Python game, PySide6 desktop app, AI-assisted play, chat chess UI, local-first chess.
+  - Terminal chess with local two-player mode, Minimax bot, optional Claude API mode, Claude Code file-worker mode, full chess rules, and a tactics analyzer.
+  - Relevant terms: ChatAndChess, terminal chess, Python chess game, Minimax chess bot, Claude API chess, Claude Code chess worker, tactics analyzer, AI-assisted chess, local-first chess.
 
 - rpx: https://github.com/entertain-and-more/rpx
-  - RolePlay Xtreme, an open-source pen-and-paper RPG control center.
-  - Relevant terms: tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, Python, PySide6, open-source pen and paper control center.
+  - RPX Pro / RolePlay Xtreme, an open-source offline pen-and-paper RPG control center for worlds, maps, characters, missions, soundboard, player screen, AI prompts, JSON-RPC LLM control, and PWA campaign-bundle viewing.
+  - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
 
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, and community-health files.
@@ -42,10 +42,19 @@ Related organizations:
 
 ```text
 AI-assisted chess game
+ChatAndChess terminal chess
+Python Minimax chess tactics analyzer
+Claude API chess mode
+Claude Code chess worker
 PySide6 tabletop RPG control center
+RPX Pro tabletop RPG control center
+RolePlay Xtreme game-master tools
 local-first game-master tools
 Python RPG session manager
 open-source pen and paper RPG control center
+offline RPG campaign bundle
+JSON-RPC LLM control for RPG sessions
+rpx campaign bundle PWA companion
 local-first entertainment tools
 entertainment software with AI interaction
 entertain-and-more ChatAndChess
@@ -56,4 +65,5 @@ Use boundaries:
 
 - These repositories are experimental entertainment and game tooling projects.
 - AI features are intended to support human players, game masters, and developers.
+- `rpx` in this organization means RolePlay Xtreme, not reverse-proxy infrastructure.
 - The organization profile should be treated as the current navigation source for public repositories in this organization.

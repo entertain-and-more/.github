@@ -2,7 +2,7 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
-Checked 2026-06-12: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+Checked 2026-06-23: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
 
 ## Files
 
@@ -10,6 +10,7 @@ Checked 2026-06-12: the profile README and `llms.txt` index every public reposit
 |---|---|
 | [profile/README.md](profile/README.md) | Visible start page on the GitHub organization profile |
 | [profile/logo.jpg](profile/logo.jpg) | Organization logo used by the profile README |
+| [profile/avatar.jpg](profile/avatar.jpg) | Square organization avatar and profile asset |
 | [llms.txt](llms.txt) | Machine-readable organization context for LLMs, search, and repo discovery |
 | [ISSUE_TEMPLATE/](ISSUE_TEMPLATE/) | Shared issue templates for the organization |
 | [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) | Shared pull request template |
@@ -18,3 +19,5 @@ Checked 2026-06-12: the profile README and `llms.txt` index every public reposit
 | [SECURITY.md](SECURITY.md) | Security reporting guidance |
 
 The public directory currently covers [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx), and this `.github` infrastructure repository.
+
+The discovery surface is intentionally narrow: `ChatAndChess` should be found through terminal chess, Minimax, Claude API, Claude Code worker, and tactics-analysis searches; `rpx` should be found through RPX Pro, RolePlay Xtreme, tabletop RPG control center, game-master tools, campaign bundles, JSON-RPC LLM control, and PWA companion searches.
