@@ -2,7 +2,7 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
-Checked 2026-06-23: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+Checked 2026-06-28: the profile README and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
 
 ## Files
 
@@ -20,4 +20,4 @@ Checked 2026-06-23: the profile README and `llms.txt` index every public reposit
 
 The public directory currently covers [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx), and this `.github` infrastructure repository.
 
-The discovery surface is intentionally narrow: `ChatAndChess` should be found through terminal chess, Minimax, Claude API, Claude Code worker, and tactics-analysis searches; `rpx` should be found through RPX Pro, RolePlay Xtreme, tabletop RPG control center, game-master tools, campaign bundles, JSON-RPC LLM control, and PWA companion searches.
+The discovery surface is intentionally narrow: `ChatAndChess` should be found through terminal chess, Minimax, Claude API, Claude Code worker, UCI move, and tactics-analysis searches; `rpx` should be found through RPX Pro, RolePlay Xtreme, tabletop RPG control center, game-master tools, campaign bundles, JSON-RPC LLM control, import/export bundle, and offline PWA companion searches.

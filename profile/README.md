@@ -20,29 +20,29 @@ This start page is the public navigation index for the organization. It lists ev
 
 ## Public Repository Directory
 
-Checked 2026-06-23: the public organization currently contains these three repositories.
+Checked 2026-06-28: the public organization currently contains these three repositories.
 
-| Project | Focus | Stack | Discovery Terms |
-|---|---|---|---|
-| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax, Claude API mode, Claude Code worker mode, and a tactics analyzer | Python, optional Anthropic API | `terminal chess`, `Minimax chess`, `Claude Code chess worker`, `AI-assisted chess` |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screen, AI prompts, and campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `campaign bundle` |
-| [.github](https://github.com/entertain-and-more/.github) | Organization profile and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt` |
+| Project | Focus | Stack | Discovery Terms | Public Activity |
+|---|---|---|---|---|
+| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, engine-hint modes, and a tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `chess tactics analyzer` | Public repo; refreshed 2026-06-28 |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screen, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA` | Public repo; refreshed 2026-06-28 |
+| [.github](https://github.com/entertain-and-more/.github) | Organization profile and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked 2026-06-28 |
 
 ## Discovery Notes
 
-- [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) is the chess project: use `ChatAndChess`, `terminal chess`, `Python Minimax chess`, `Claude API chess`, `Claude Code worker chess`, and `chess tactics analyzer`.
-- [rpx](https://github.com/entertain-and-more/rpx) is the RPG project: use `RPX Pro`, `RolePlay Xtreme`, `offline tabletop RPG control center`, `game-master dashboard`, `JSON-RPC LLM control`, and `rpx campaign bundle`.
+- [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) is the chess project: use `ChatAndChess`, `terminal chess`, `Python Minimax chess`, `Claude API chess`, `Claude Code worker chess`, `UCI chess moves`, and `chess tactics analyzer`.
+- [rpx](https://github.com/entertain-and-more/rpx) is the RPG project: use `RPX Pro`, `RolePlay Xtreme`, `offline tabletop RPG control center`, `game-master dashboard`, `JSON-RPC LLM control`, `import campaign bundle`, and `rpx campaign bundle PWA companion`.
 - The name `rpx` also appears in unrelated reverse-proxy tooling. In this organization, `rpx` means **RolePlay Xtreme**, a tabletop RPG and game-master application.
 
 ## Project Families
 
 ### Board games and AI-assisted play
 
-[ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) explores a compact terminal chess interface with chat-driven interaction patterns. It is useful as a small Python game codebase, a rules-and-engine testbed, and a testbed for AI-assisted play modes.
+[ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) explores a compact terminal chess interface with chat-driven interaction patterns. It is useful as a small Python game codebase, a rules-and-engine testbed, and a testbed for AI-assisted play modes, including Claude API play and file-based Claude Code worker runs.
 
 ### Tabletop and game-master tooling
 
-[rpx](https://github.com/entertain-and-more/rpx) is a local-first control center for pen-and-paper role-playing sessions. It centers the human game master and supports practical session work such as maps, ambience, notes, character state, missions, a second-screen player view, JSON-RPC control for LLM workflows, and an offline PWA companion for exported campaign bundles.
+[rpx](https://github.com/entertain-and-more/rpx) is a local-first control center for pen-and-paper role-playing sessions. It centers the human game master and supports practical session work such as maps, ambience, notes, character state, missions, a second-screen player view, JSON-RPC control for LLM workflows, import/exportable `rpx-campaign-bundle-v1` ZIP files, and an offline PWA companion for campaign bundles.
 
 ## Design Principles
 
@@ -59,4 +59,4 @@ Checked 2026-06-23: the public organization currently contains these three repos
 - Related AI infrastructure: [ellmos-ai](https://github.com/ellmos-ai)
 - Broader software suite: [open-bricks](https://github.com/open-bricks)
 
-Search phrases that should lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `JSON-RPC LLM control for RPG sessions`, `entertain-and-more ChatAndChess`, `entertain-and-more rpx`.
+Search phrases that should lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `rpx-campaign-bundle-v1`, `JSON-RPC LLM control for RPG sessions`, `entertain-and-more ChatAndChess`, `entertain-and-more rpx`.
