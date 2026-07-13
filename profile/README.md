@@ -8,7 +8,7 @@
 
 entertain-and-more is the playful software branch of the ellmos ecosystem. The repositories here focus on small, inspectable game and entertainment projects: terminal chess with optional Claude integration, tabletop role-playing support, game-master tooling, maps, soundboards, campaign bundles, and experiments where AI helps without taking control away from the player.
 
-This start page is the public navigation index for the organization. It lists every public repository currently visible in `entertain-and-more`; private or internal work is intentionally not advertised here.
+This start page is the public navigation index for the organization. It lists every public repository currently visible in `entertain-and-more`; private or internal work is intentionally not advertised here. The index was refreshed against live GitHub metadata on 2026-07-13.
 
 ## Start Here
 
@@ -20,19 +20,20 @@ This start page is the public navigation index for the organization. It lists ev
 
 ## Public Repository Directory
 
-Checked 2026-06-28: the public organization currently contains these three repositories.
+Checked 2026-07-13: the public organization currently contains these three repositories. No public repository is missing from this directory.
 
 | Project | Focus | Stack | Discovery Terms | Public Activity |
 |---|---|---|---|---|
-| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, engine-hint modes, and a tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `chess tactics analyzer` | Public repo; refreshed 2026-06-28 |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screen, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA` | Public repo; refreshed 2026-06-28 |
-| [.github](https://github.com/entertain-and-more/.github) | Organization profile and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked 2026-06-28 |
+| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, UCI input, engine-hint modes, and a tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Public repo; last public push 2026-07-01 |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Public repo; last public push 2026-07-04 |
+| [.github](https://github.com/entertain-and-more/.github) | Organization profile and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked 2026-07-13 |
 
 ## Discovery Notes
 
 - [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) is the chess project: use `ChatAndChess`, `terminal chess`, `Python Minimax chess`, `Claude API chess`, `Claude Code worker chess`, `UCI chess moves`, and `chess tactics analyzer`.
 - [rpx](https://github.com/entertain-and-more/rpx) is the RPG project: use `RPX Pro`, `RolePlay Xtreme`, `offline tabletop RPG control center`, `game-master dashboard`, `JSON-RPC LLM control`, `import campaign bundle`, and `rpx campaign bundle PWA companion`.
 - The name `rpx` also appears in unrelated reverse-proxy tooling. In this organization, `rpx` means **RolePlay Xtreme**, a tabletop RPG and game-master application.
+- Searches for `entertain-and-more` should resolve to this organization profile, then route users to the specific chess or RPG project rather than treating the org as a single monolithic game.
 
 ## Project Families
 
@@ -59,4 +60,4 @@ Checked 2026-06-28: the public organization currently contains these three repos
 - Related AI infrastructure: [ellmos-ai](https://github.com/ellmos-ai)
 - Broader software suite: [open-bricks](https://github.com/open-bricks)
 
-Search phrases that should lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `rpx-campaign-bundle-v1`, `JSON-RPC LLM control for RPG sessions`, `entertain-and-more ChatAndChess`, `entertain-and-more rpx`.
+Search phrases that should lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `engine hint chess terminal`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `rpx-campaign-bundle-v1`, `JSON-RPC LLM control for RPG sessions`, `entertain-and-more ChatAndChess`, `entertain-and-more rpx`.
