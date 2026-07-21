@@ -1,6 +1,6 @@
 # entertain-and-more
 
-## Last-checked: 2026-07-13
+## Last-checked: 2026-07-22
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
@@ -9,23 +9,23 @@ entertain-and-more is an organization for local-first games and entertainment to
 
 Public repository directory:
 
-Checked: 2026-07-13
+Checked: 2026-07-22
 Public repository count: 3
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
   - Terminal chess with local two-player mode, Minimax bot, optional Claude API mode, Claude Code file-worker mode, full chess rules, UCI move input, engine-hint modes, and a tactics analyzer.
-  - Live public metadata: last public push 2026-07-01; one public star; no forks at the 2026-07-13 check.
+  - Live public metadata: last public push 2026-07-18; one public star; no forks at the 2026-07-22 check.
   - Relevant terms: ChatAndChess, terminal chess, Python chess game, Minimax chess bot, Claude API chess, Claude Code chess worker, UCI chess moves, engine hint chess, tactics analyzer, AI-assisted chess, local-first chess.
 
 - rpx: https://github.com/entertain-and-more/rpx
   - RPX Pro / RolePlay Xtreme, an open-source offline pen-and-paper RPG control center for worlds, maps, characters, missions, soundboard, player screen, AI prompts, JSON-RPC LLM control, import/exportable campaign bundles, and PWA campaign-bundle viewing.
-  - Live public metadata: last public push 2026-07-04; one public star; no forks at the 2026-07-13 check.
+  - Live public metadata: last public push 2026-07-17; one public star; no forks at the 2026-07-22 check.
   - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, import campaign bundle, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
 
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, and community-health files.
-  - Live public metadata: public org profile checked 2026-07-13.
+  - Live public metadata: public org profile checked 2026-07-22.
   - Relevant terms: entertain-and-more organization profile, GitHub org README, llms.txt, public repo directory.
 
 Related organizations:
