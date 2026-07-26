@@ -8,16 +8,21 @@
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-teal?style=flat-square" alt="Open Bricks"></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM--Context-llms.txt-green?style=flat-square" alt="llms.txt"></a>
   <img src="https://img.shields.io/badge/Architecture-Local--First-informational?style=flat-square" alt="Local First">
+  <img src="https://img.shields.io/badge/Stack-Python%20%7C%20PySide6%20%7C%20Minimax-orange?style=flat-square" alt="Stack">
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square" alt="License MIT">
 </p>
 
 # entertain-and-more
 
 **Local-first play tools for chess, tabletop RPG sessions, and AI-assisted game-master workflows.**
 
-entertain-and-more is the playful software branch of the ellmos ecosystem. The repositories here focus on small, inspectable game and entertainment projects: terminal chess with optional Claude integration, tabletop role-playing support, game-master tooling, maps, soundboards, campaign bundles, and experiments where AI helps without taking control away from the player.
+entertain-and-more is the playful software branch of the `ellmos` ecosystem. The repositories here focus on small, inspectable game and entertainment projects: terminal chess with optional Claude integration, tabletop role-playing support, game-master tooling, maps, soundboards, campaign bundles, and experiments where AI assists human players and Game Masters without taking control away from the player.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed against live GitHub metadata on **2026-07-22**. Every public repository visible in `entertain-and-more` is indexed here. Private or internal work is intentionally omitted.
+> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-07-26**. Every public repository visible in `entertain-and-more` is 100% indexed here. Private or internal work is intentionally omitted.
+
+> [!TIP]
+> **Local-First & Offline Resilience:** All applications in `entertain-and-more` operate fully offline by default. AI features (such as Anthropic API modes, Claude Code file-worker integration, and JSON-RPC control bridges) are optional layers designed to enhance tabletop preparation and gameplay without requiring cloud connectivity for core functions.
 
 ## Start Here
 
@@ -51,10 +56,10 @@ graph TD
         end
     end
 
-    subgraph Eco ["Shared Ecosystem Integration"]
+    subgraph Eco ["Ecosystem Integration Network"]
         ELLMOS["ellmos-ai (Agent & LLM Infrastructure)"]
-        OPEN["open-bricks (Open Software Suite)"]
-        DESK["file-bricks & dev-bricks (Desktop & Dev Tools)"]
+        OPEN["open-bricks (Open Software Suite Dach-Org)"]
+        DESK["file-bricks & dev-bricks (Desktop Apps & Dev Tools)"]
     end
 
     CC_AI -.-> ELLMOS
@@ -65,15 +70,32 @@ graph TD
 
 ## Public Repository Directory
 
-Checked **2026-07-22**: the public organization currently contains these three repositories. No public repository is missing from this directory.
+Checked **2026-07-26**: the public organization currently contains these three repositories. No public repository is missing from this directory.
 
 | Project | Focus | Stack | Discovery Terms | Public Activity |
 |---|---|---|---|---|
-| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, UCI input, engine-hint modes, and a tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Public repo; last public push **2026-07-18** |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Public repo; last public push **2026-07-17** |
-| [.github](https://github.com/entertain-and-more/.github) | Organization profile and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked **2026-07-22** |
+| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, UCI input, engine-hint modes, and a tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Public repo; last public push **2026-07-25** |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Public repo; last public push **2026-07-25** |
+| [.github](https://github.com/entertain-and-more/.github) | Organization profile, shared issue templates, PR template, llms.txt, and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked **2026-07-26** |
 
-## Discovery Notes
+## Ecosystem Network
+
+`entertain-and-more` operates as the dedicated gaming and entertainment branch within a larger open-source software and research network:
+
+| Organization | Domain Focus | Key Repositories / Role |
+|---|---|---|
+| [open-bricks](https://github.com/open-bricks) | Umbrella / Dach-Organisation | Central catalog, open-source software umbrella |
+| [ellmos-ai](https://github.com/ellmos-ai) | AI Agent Infrastructure | `bach`, `rinnsal`, `MarbleRun`, `skills`, `n8n-workflow-manager` |
+| [file-bricks](https://github.com/file-bricks) | Desktop Data Tools | `ProFiler`, `ExplorerPro`, `ProSync`, `AmpelClip`, `ProfiPrompt` |
+| [doc-bricks](https://github.com/doc-bricks) | Document & Media Systems | `DokuReader`, `MediaBrain`, `UniversalInvoiceMail` |
+| [dev-bricks](https://github.com/dev-bricks) | Developer & Code Tools | `DevCenter`, `ApiProber`, `lock-master`, `pythonbox` |
+| [research-line](https://github.com/research-line) | Open Science & Math Physics | `crm-cosmology`, `fst-nash`, `epstein-network`, `multiaxial-diagnostic-system` |
+| [biotec-line](https://github.com/biotec-line) | Bioinformatics | `VFDistiller`, `genotype-to-vcf` |
+| [assistassets-ai](https://github.com/assistassets-ai) | Local Financial Analytics | `FinancialProof` |
+| [entertain-and-more](https://github.com/entertain-and-more) | Games & TTRPG Tools | `ChatAndChess`, `rpx`, `.github` |
+| [lukisch](https://github.com/lukisch) | Personal GitHub Profile | Developer portal & flagship showcases |
+
+## Discovery Notes & SEO Optimization
 
 - [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) is the chess project: use `ChatAndChess`, `terminal chess`, `Python Minimax chess`, `Claude API chess`, `Claude Code worker chess`, `UCI chess moves`, and `chess tactics analyzer`.
 - [rpx](https://github.com/entertain-and-more/rpx) is the RPG project: use `RPX Pro`, `RolePlay Xtreme`, `offline tabletop RPG control center`, `game-master dashboard`, `JSON-RPC LLM control`, `import campaign bundle`, and `rpx campaign bundle PWA companion`.
