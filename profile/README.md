@@ -19,7 +19,7 @@
 entertain-and-more is the entertainment and creative media branch of the `open-bricks` and `ellmos` ecosystem. The repositories here focus on practical, inspectable local-first software: terminal chess with optional Claude API integration, tabletop role-playing support systems (rpx), USB microphone podcast studios, streaming content availability guides, and live audio/video recording software. Every application is built to keep user data local while offering optional AI enhancement layers for players, creators, and Game Masters.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-07-27**. Every public repository visible in `entertain-and-more` (5 active software projects plus 1 profile repository) is 100% indexed here. Private or internal work is intentionally omitted.
+> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-07-28**. Every public repository visible in `entertain-and-more` (5 active software projects plus 1 profile repository) is 100% indexed here. Private or internal work is intentionally omitted.
 
 > [!TIP]
 > **Local-First & Offline Resilience:** All applications in `entertain-and-more` operate fully offline by default. AI features (such as Anthropic API modes, Claude Code file-worker integration, TMDB/Claude CLI discovery, and JSON-RPC control bridges) are optional layers designed to enhance gameplay and studio workflows without requiring cloud lock-in for core functions.
@@ -69,7 +69,7 @@ graph TD
 
 ## Public Repository Directory
 
-Checked **2026-07-27**: the public organization currently contains 5 software applications plus 1 profile repository.
+Checked **2026-07-28**: the public organization currently contains 5 software applications plus 1 profile repository.
 
 | Project | Focus | Stack | Discovery Terms | Public Activity |
 |---|---|---|---|---|

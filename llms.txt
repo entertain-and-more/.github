@@ -1,6 +1,6 @@
 # entertain-and-more
 
-## Last-checked: 2026-07-27
+## Last-checked: 2026-07-28
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
@@ -9,7 +9,7 @@ entertain-and-more is an organization for local-first games, entertainment tools
 
 Public repository directory:
 
-Checked: 2026-07-27
+Checked: 2026-07-28
 Public repository count: 6 (5 applications + 1 profile infrastructure repository)
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 

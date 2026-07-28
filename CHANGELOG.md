@@ -2,7 +2,15 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
-## [Unreleased] - 2026-07-27
+## [Unreleased]
+
+## [2026-07-28]
+
+### Added & Updated
+- **Public Repo Directory Audit:** Resolved `llms.txt` merge conflicts and updated `Last-checked` timestamps to `2026-07-28` across `profile/README.md`, `README.md`, and `llms.txt`.
+- **Shared Community Health & Issue Templates Audit:** Created organization-wide default templates under `.github/ISSUE_TEMPLATE/` (`bug_report.md`, `feature_request.md`) and `.github/PULL_REQUEST_TEMPLATE.md` for seamless GitHub org-wide default template discovery.
+
+## [2026-07-27]
 
 ### Added & Updated
 - **Comprehensive Public Repository Audit:** Verified 100% live GitHub API metadata across all 6 public repositories in `entertain-and-more`.
