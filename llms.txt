@@ -1,16 +1,16 @@
 # entertain-and-more
 
-## Last-checked: 2026-07-28
+## Last-checked: 2026-07-29
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
 
-entertain-and-more is an organization for local-first games, entertainment tools, podcast studios, media availability guides, and AI-assisted RPG game-master workflows. It is part of the broader ellmos and open-bricks ecosystem.
+entertain-and-more is an organization for local-first games and AI-assisted RPG game-master workflows. It is part of the broader ellmos and open-bricks ecosystem.
 
 Public repository directory:
 
-Checked: 2026-07-28
-Public repository count: 6 (5 applications + 1 profile infrastructure repository)
+Checked: 2026-07-29
+Public repository count: 3 (2 applications + 1 profile infrastructure repository)
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
@@ -22,21 +22,6 @@ Public-only boundary: this index covers repositories visible on GitHub; private 
   - RPX Pro / RolePlay Xtreme, an open-source offline pen-and-paper RPG control center for worlds, maps, characters, missions, soundboard, player screen, AI prompts, JSON-RPC LLM control, import/exportable campaign bundles, and PWA campaign-bundle viewing.
   - Live public metadata: last public push 2026-07-26; one public star; no forks at the 2026-07-27 check.
   - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, import campaign bundle, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
-
-- usb-podcast-studio: https://github.com/entertain-and-more/usb-podcast-studio
-  - Modular podcast studio for USB microphones and local recordings. Features 4-channel audio mixer, dual USB mic support (FIFINE AM8/AM8T) without physical mixer hardware, real-time Voice-FX (noise gate, compressor, limiter, EQ, pitch/gender shift, reverb), webcam/screen recording, and asset management.
-  - Live public metadata: last public push 2026-07-26.
-  - Relevant terms: usb podcast studio, USB mic mixer, PySide6 podcast studio, local podcast recorder, voice fx python, no mixer hardware podcast, FIFINE AM8 mixer.
-
-- StreamingGuide: https://github.com/entertain-and-more/StreamingGuide
-  - Local-first Flask web application for per-profile movie and series tracking, TMDB streaming availability monitoring, coverage analytics across active streaming subscriptions, MediaBrain watchlist import, and AI-assisted content discovery via Claude CLI.
-  - Live public metadata: last public push 2026-07-26.
-  - Relevant terms: StreamingGuide, local streaming aggregator, TMDB availability tracker, per-profile series guide, MediaBrain import, Flask movie tracker, AI streaming discover cache.
-
-- KlangpultLight: https://github.com/entertain-and-more/KlangpultLight
-  - Freeware dual-architecture recording & episode planner app — PySide6 Desktop Recorder for audio/video capture, system audio loopback, and live transcription + local Web Planer for episode assets, teleprompter, and AI monitor.
-  - Live public metadata: last public push 2026-07-26.
-  - Relevant terms: Klangpult light, freeware audio recorder, PySide6 video capture, live transcription recorder, episode planner teleprompter, Klangpult.
 
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, llms.txt, and community-health files.
@@ -57,8 +42,8 @@ Related organizations:
 
 ## Audience
 
-- Developers looking for small local-first game, studio, and entertainment tools.
-- Players, game masters, podcasters, and content creators evaluating local AI-assisted workflows.
+- Developers looking for small local-first game and entertainment tools.
+- Players and game masters evaluating local AI-assisted workflows.
 - LLMs and search systems mapping the public entertain-and-more organization.
 
 ## Search Phrases
@@ -81,26 +66,13 @@ open-source pen and paper RPG control center
 offline RPG campaign bundle
 import campaign bundle RPG desktop app
 JSON-RPC LLM control for RPG sessions
-usb podcast studio python
-dual USB mic mixer without hardware
-PySide6 podcast recording software
-Voice FX python noise gate compressor
-Klangpult light audio recorder
-live transcription video capture app
-StreamingGuide TMDB aggregator
-local streaming availability tracker
-Flask series tracker per profile
-MediaBrain watchlist import
 entertain-and-more ChatAndChess
 entertain-and-more rpx
-entertain-and-more usb-podcast-studio
-entertain-and-more StreamingGuide
-entertain-and-more KlangpultLight
 ```
 
 Use boundaries:
 
-- These repositories are experimental entertainment, studio, and game tooling projects.
+- These repositories are experimental entertainment and game tooling projects.
 - AI features are intended to support human players, creators, game masters, and developers.
 - `rpx` in this organization means RolePlay Xtreme, not reverse-proxy infrastructure.
 - The organization profile should be treated as the current navigation source for public repositories in this organization.

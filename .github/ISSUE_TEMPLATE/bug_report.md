@@ -10,9 +10,9 @@ assignees: ''
 <!-- A clear and concise description of what the bug is. -->
 
 ## Steps to reproduce
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Expected behavior
 <!-- What you expected to happen. -->
@@ -21,9 +21,9 @@ assignees: ''
 <!-- What actually happened. -->
 
 ## Environment
-- OS: 
-- Version: 
-- Python/Node version: 
+- OS:
+- Version:
+- Python/Node version:
 
 ## Additional context
 <!-- Screenshots, logs, or anything else that helps. -->

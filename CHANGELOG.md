@@ -4,6 +4,13 @@ All notable changes to the `entertain-and-more/.github` organization profile rep
 
 ## [Unreleased]
 
+## [2026-07-29]
+
+### Corrected
+- **Public-only inventory:** Revalidated repository visibility through the authenticated GitHub API. The public organization contains `ChatAndChess`, `rpx`, and `.github`; private repositories are no longer advertised in `README.md`, `profile/README.md`, or `llms.txt`.
+- **Private product boundary:** The private commercial app formerly named `usb-podcast-studio` was renamed to `Klangpult` and remains private. It is intentionally absent from the public organization profile.
+- **Count correction:** Replaced the incorrect `6 repositories` claim with the current public count of 3 (2 applications plus the profile repository).
+
 ## [2026-07-28]
 
 ### Added & Updated

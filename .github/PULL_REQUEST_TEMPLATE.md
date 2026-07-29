@@ -3,7 +3,7 @@
 
 ## Type of change
 - [ ] Bug fix
-- [ ] New feature  
+- [ ] New feature
 - [ ] Breaking change
 - [ ] Documentation
 - [ ] Refactoring
