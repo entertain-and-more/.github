@@ -1,6 +1,11 @@
 # Changelog — entertain-and-more/.github
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
+## [2026-08-01]
+- **Public repository directory:** Added the newly public `KlangpultLight` repository to `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- **Bilingual profile:** Added the German organization start page and synchronized the public count to 4 repositories (3 applications plus profile infrastructure).
+- **Verification:** Live GitHub API inventory, `git diff --check`, UTF-8/Umlaut scan, and public-index parity check completed.
+
 
 ## [Unreleased]
 

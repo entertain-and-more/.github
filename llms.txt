@@ -1,6 +1,6 @@
 # entertain-and-more
 
-## Last-checked: 2026-07-29
+## Last-checked: 2026-08-01
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
@@ -9,8 +9,8 @@ entertain-and-more is an organization for local-first games and AI-assisted RPG 
 
 Public repository directory:
 
-Checked: 2026-07-29
-Public repository count: 3 (2 applications + 1 profile infrastructure repository)
+Checked: 2026-08-01
+Public repository count: 4 (3 applications + 1 profile infrastructure repository)
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
@@ -23,9 +23,13 @@ Public-only boundary: this index covers repositories visible on GitHub; private 
   - Live public metadata: last public push 2026-07-26; one public star; no forks at the 2026-07-27 check.
   - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, import campaign bundle, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
 
+- KlangpultLight: https://github.com/entertain-and-more/KlangpultLight
+  - Lightweight Python soundboard and music-control tool for tabletop sessions and live game workflows.
+  - Live public metadata: last public push 2026-07-31.
+
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, llms.txt, and community-health files.
-  - Live public metadata: public org profile checked 2026-07-27.
+  - Live public metadata: public org profile checked 2026-08-01.
   - Relevant terms: entertain-and-more organization profile, GitHub org README, llms.txt, public repo directory.
 
 Related organizations:
@@ -59,7 +63,8 @@ engine hint chess terminal
 standard-library Python chess game
 PySide6 tabletop RPG control center
 RPX Pro tabletop RPG control center
-RolePlay Xtreme game-master tools
+  RolePlay Xtreme game-master tools
+  KlangpultLight RPG soundboard
 local-first game-master tools
 Python RPG session manager
 open-source pen and paper RPG control center
@@ -67,12 +72,14 @@ offline RPG campaign bundle
 import campaign bundle RPG desktop app
 JSON-RPC LLM control for RPG sessions
 entertain-and-more ChatAndChess
-entertain-and-more rpx
+  entertain-and-more rpx
+  entertain-and-more KlangpultLight
 ```
 
 Use boundaries:
 
 - These repositories are experimental entertainment and game tooling projects.
 - AI features are intended to support human players, creators, game masters, and developers.
-- `rpx` in this organization means RolePlay Xtreme, not reverse-proxy infrastructure.
+  - `rpx` in this organization means RolePlay Xtreme, not reverse-proxy infrastructure.
+  - `KlangpultLight` is the lightweight soundboard and session-music project.
 - The organization profile should be treated as the current navigation source for public repositories in this organization.
