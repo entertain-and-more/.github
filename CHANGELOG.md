@@ -1,13 +1,22 @@
 # Changelog — entertain-and-more/.github
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
+
+## [2026-08-14]
+
+### Added & Updated
+- **Discoverability & Profile Parity Audit (Path B):** Verified live GitHub API inventory for all public repositories in `entertain-and-more` (`ChatAndChess`, `rpx`, `KlangpultLight`, `.github`).
+- **Full Parity German Profile (`profile/README_de.md`):** Expanded `profile/README_de.md` to 100% structural parity with `profile/README.md`, including complete Shields.io badge bar, bilingual language switcher (`[🇩🇪 Deutsch](README_de.md) | [🇬🇧 English Version](README.md)`), showcase section with linked banners, updated Mermaid system architecture flow, complete public repository directory, ecosystem sister network table, project families descriptions, and German SEO discovery search terms.
+- **Profile Enhancements (`profile/README.md`):** Updated hero badge bar with language switcher link, updated live push timestamps (`2026-08-14` for `rpx` and `KlangpultLight`), harmonized banner presentation, and synchronized audit date to `2026-08-14`.
+- **Machine Context Sync (`llms.txt`):** Updated `Last-checked: 2026-08-14`, synchronized public push timestamps, cleaned search phrase indentation, and validated sister org cross-links.
+- **Root README Sync (`README.md`):** Synchronized public repository index table, push timestamps, and files structure table referencing bilingual profile documents.
+
 ## [2026-08-01]
+
+### Added & Updated
 - **Public repository directory:** Added the newly public `KlangpultLight` repository to `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
 - **Bilingual profile:** Added the German organization start page and synchronized the public count to 4 repositories (3 applications plus profile infrastructure).
 - **Verification:** Live GitHub API inventory, `git diff --check`, UTF-8/Umlaut scan, and public-index parity check completed.
-
-
-## [Unreleased]
 
 ## [2026-07-29]
 

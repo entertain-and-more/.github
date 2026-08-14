@@ -1,13 +1,17 @@
 # Befunde — entertain-and-more-github
 
-**Erfasst am:** 2026-07-29
-**Rolle:** TASKSOLVER (TaskMaster Loop)
+**Erfasst am:** 2026-08-14
+**Rolle:** ANTIGRAVITY (Path B Discoverability & SEO Audit)
 
 ---
 
-### Status: Public-only-Inventar korrigiert
+### Status: Öffentliches Inventar & Zweisprachigkeit synchronisiert
 
-1. **Falsche Public-Klassifikation:** Die Inventur vom 2026-07-28 hatte drei private Repositories (`usb-podcast-studio`, `StreamingGuide`, `KlangpultLight`) als öffentlich beworben. Der Live-Readback vom 2026-07-29 bestätigt nur `ChatAndChess`, `rpx` und `.github` als öffentlich.
-2. **Korrektur:** `profile/README.md`, `README.md` und `llms.txt` listen jetzt ausschließlich diese drei öffentlichen Repositories.
-3. **Private Verkaufsapp:** `usb-podcast-studio` wurde auf GitHub in `Klangpult` umbenannt und blieb `private`; es wird im öffentlichen Profil nicht beworben.
-4. **Shared Community Health & Issue Templates:** Die im Vorcommit angelegten Vorlagen unter `.github/` bleiben erhalten.
+1. **Öffentliche Repositories (4):** Live-GitHub-API bestätigt vier öffentliche Repositories in der Organisation `entertain-and-more`:
+   - `ChatAndChess` (Terminal-Schach mit Minimax und Claude-API/Worker-Modi)
+   - `rpx` (RolePlay Xtreme / RPX Pro — lokales PnP RPG-Kontrollzentrum)
+   - `KlangpultLight` (Klangpult light — kostenlose Recorder- & Planer-Freeware-Funnel-Edition)
+   - `.github` (Öffentliches Organisationsprofil und Community-Standards)
+2. **Zweisprachige Profilseiten-Parität:** `profile/README_de.md` wurde auf 100% inhaltliche und visuelle Parität mit `profile/README.md` ausgebaut (inkl. Badges, Showcase-Bannern, Systemarchitektur-Mermaid-Diagramm, Ökosystem-Netzwerk-Tabelle, Projektfamilien und SEO-Suchbegriffen).
+3. **Metadaten & Zeitstempel:** Alle Dokumente (`README.md`, `profile/README.md`, `profile/README_de.md`, `llms.txt`, `CHANGELOG.md`) auf den Stand **2026-08-14** synchronisiert.
+4. **Marketing-Empfehlung:** Für `entertain-and-more/KlangpultLight` sollte über das GitHub-Webinterface oder GitHub CLI die Repository-Kurzbeschreibung ("Local-first podcast recorder and episode planner (PySide6 desktop app + local web planner)") sowie Topics (`podcast`, `recorder`, `pyside6`, `audio-capture`, `local-first`, `teleprompter`) gesetzt werden (in `MARKETING-LOG.txt` erfasst).

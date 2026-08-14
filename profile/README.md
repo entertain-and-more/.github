@@ -3,25 +3,26 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/GitHub-Organization--Profile-blue?style=flat-square&logo=github" alt="GitHub Org Profile"></a>
-  <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square" alt="Ecosystem ellmos-ai"></a>
-  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-teal?style=flat-square" alt="Open Bricks"></a>
-  <a href="https://github.com/entertain-and-more/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM--Context-llms.txt-green?style=flat-square" alt="llms.txt"></a>
-  <img src="https://img.shields.io/badge/Architecture-Local--First-informational?style=flat-square" alt="Local First">
-  <img src="https://img.shields.io/badge/Stack-Python%20%7C%20PySide6%20%7C%20JSON--RPC-orange?style=flat-square" alt="Stack">
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square" alt="License">
+  <a href="https://github.com/entertain-and-more/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Public_Repos-4-blue?style=flat-square&logo=github" alt="Public Repositories" /></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-teal?style=flat-square&logo=github" alt="Umbrella: open-bricks" /></a>
+  <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
+  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Focus-Games_%26_Media_Tools-emerald?style=flat-square" alt="Focus: Games & Media Tools" /></a>
+  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Architecture-Local--First-informational?style=flat-square" alt="Architecture: Local-First" /></a>
+  <a href="https://github.com/entertain-and-more/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/entertain-and-more/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM--Context-llms.txt-orange?style=flat-square" alt="LLM Context: llms.txt" /></a>
+  <a href="https://github.com/entertain-and-more/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
 </p>
 
 # entertain-and-more
 
-[🇩🇪 Deutsche Version](README_de.md)
+[🇬🇧 English](README.md) | [🇩🇪 Deutsche Version](README_de.md)
 
 **Local-first games, AI-assisted RPG game-master workflows, and local podcast production tooling.**
 
-entertain-and-more is the entertainment branch of the `open-bricks` and `ellmos` ecosystem. Its public repositories focus on practical, inspectable local-first software: terminal chess, tabletop role-playing support, and local podcast production tooling. Every public application is built to keep user data local while offering optional AI enhancement layers for its players, game masters, and creators.
+entertain-and-more is the entertainment and media tooling branch of the `open-bricks` and `ellmos` ecosystem. Its public repositories focus on practical, inspectable local-first software: terminal chess, tabletop role-playing support systems (rpx), and local podcast production tooling (Klangpult light). Every public application is built to keep user data local while offering optional AI enhancement layers for players, game masters, and creators.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-08-06**. Every public repository visible in `entertain-and-more` (3 active software projects plus 1 profile repository) is indexed here. Private or internal work is intentionally omitted.
+> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-08-14**. Every public repository visible in `entertain-and-more` (3 active software projects plus 1 profile repository) is indexed here. Private or internal work is intentionally omitted.
 
 > [!TIP]
 > **Local-First & Offline Resilience:** The public applications in `entertain-and-more` operate fully offline by default. AI features such as Anthropic API modes, Claude Code file-worker integration, JSON-RPC control bridges, and live transcription are optional layers designed to enhance play and production workflows without requiring cloud lock-in for core functions.
@@ -30,9 +31,12 @@ entertain-and-more is the entertainment branch of the `open-bricks` and `ellmos`
 
 The banners are the links; details in the tables below.
 
-<p align="center"><a href="https://github.com/entertain-and-more/rpx"><img src="https://raw.githubusercontent.com/entertain-and-more/rpx/master/assets/banner.svg" alt="rpx — RolePlay Xtreme" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight — Klangpult light" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center">
+  <a href="https://github.com/entertain-and-more/rpx"><img src="https://raw.githubusercontent.com/entertain-and-more/rpx/master/assets/banner.svg" alt="rpx — RolePlay Xtreme" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight — Klangpult light" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a>
+</p>
 
-[ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) does not have dedicated banner artwork yet; it is listed in the tables below.
+*Note:* [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) is a pure terminal/CLI tool and is indexed directly in the directory below.
 
 ## Start Here
 
@@ -70,14 +74,14 @@ graph TD
 
 ## Public Repository Directory
 
-Checked **2026-08-06**: the public organization currently contains 3 software applications plus 1 profile repository.
+Checked **2026-08-14**: the public organization currently contains 3 software applications plus 1 profile repository.
 
 | Project | Focus | Stack | Discovery Terms | Public Activity |
 |---|---|---|---|---|
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth, optional Claude API mode, Claude Code worker mode, full chess rules, UCI input, engine-hint modes, and tactics analyzer | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Public repo; last push **2026-07-27** |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Public repo; last push **2026-08-05** |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Klangpult light: free Recorder + Planer podcast/streaming production tool (freeware funnel edition of the paid, private `Klangpult` USB podcast studio) — local recording, live transcription, episode planning, teleprompter, AI monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `Klangpult light`, `podcast recorder`, `podcast planner`, `local podcast production` | Public repo; last push **2026-08-03** |
-| [.github](https://github.com/entertain-and-more/.github) | Organization profile, shared issue templates, PR template, llms.txt, and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked **2026-08-06** |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Public repo; last push **2026-08-14** |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Klangpult light: free Recorder + Planer podcast/streaming production tool (freeware funnel edition of the paid, private `Klangpult` USB podcast studio) — local recording, live transcription, episode planning, teleprompter, AI monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `Klangpult light`, `podcast recorder`, `podcast planner`, `local podcast production` | Public repo; last push **2026-08-14** |
+| [.github](https://github.com/entertain-and-more/.github) | Organization profile, shared issue templates, PR template, llms.txt, and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Public profile repo; checked **2026-08-14** |
 
 ## Ecosystem Network
 
