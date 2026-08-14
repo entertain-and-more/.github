@@ -5,6 +5,7 @@ All notable changes to the `entertain-and-more/.github` organization profile rep
 ## [2026-08-14]
 
 ### Added & Updated
+- **Privacy correction:** Removed private repository names from the current public profile, machine context, findings, and historical summary text; sister-organization tables now list public repositories only. Added an identifier-free privacy regression check with public URL allowlists and optional external denylist input.
 - **Discoverability & Profile Parity Audit (Path B):** Verified live GitHub API inventory for all public repositories in `entertain-and-more` (`ChatAndChess`, `rpx`, `KlangpultLight`, `.github`).
 - **Full Parity German Profile (`profile/README_de.md`):** Expanded `profile/README_de.md` to 100% structural parity with `profile/README.md`, including complete Shields.io badge bar, bilingual language switcher (`[🇩🇪 Deutsch](README_de.md) | [🇬🇧 English Version](README.md)`), showcase section with linked banners, updated Mermaid system architecture flow, complete public repository directory, ecosystem sister network table, project families descriptions, and German SEO discovery search terms.
 - **Profile Enhancements (`profile/README.md`):** Updated hero badge bar with language switcher link, updated live push timestamps (`2026-08-14` for `rpx` and `KlangpultLight`), harmonized banner presentation, and synchronized audit date to `2026-08-14`.
@@ -22,7 +23,7 @@ All notable changes to the `entertain-and-more/.github` organization profile rep
 
 ### Corrected
 - **Public-only inventory:** Revalidated repository visibility through the authenticated GitHub API. The public organization contains `ChatAndChess`, `rpx`, and `.github`; private repositories are no longer advertised in `README.md`, `profile/README.md`, or `llms.txt`.
-- **Private product boundary:** The private commercial app formerly named `usb-podcast-studio` was renamed to `Klangpult` and remains private. It is intentionally absent from the public organization profile.
+- **Private product boundary:** The private commercial edition remains intentionally absent from the public organization profile.
 - **Count correction:** Replaced the incorrect `6 repositories` claim with the current public count of 3 (2 applications plus the profile repository).
 
 ## [2026-07-28]
@@ -35,7 +36,7 @@ All notable changes to the `entertain-and-more/.github` organization profile rep
 
 ### Added & Updated
 - **Comprehensive Public Repository Audit:** Verified 100% live GitHub API metadata across all 6 public repositories in `entertain-and-more`.
-- **Repo Directory Expansion:** Integrated 3 missing active repositories (`usb-podcast-studio`, `StreamingGuide`, `KlangpultLight`) into `profile/README.md`, `README.md`, and `llms.txt`.
+- **Repo Directory Expansion:** Integrated the then-public repository entries into `profile/README.md`, `README.md`, and `llms.txt`; later audits reduced the index to currently public repositories only.
 - **Profile Enhancements (`profile/README.md`):**
   - Updated hero badges (`Flask`, `Dart`, `Freeware`).
   - Added new Start Here entry points for audio podcasting, media availability tracking, and live audio/video recording.

@@ -10,7 +10,7 @@
 1. **Öffentliche Repositories (4):** Live-GitHub-API bestätigt vier öffentliche Repositories in der Organisation `entertain-and-more`:
    - `ChatAndChess` (Terminal-Schach mit Minimax und Claude-API/Worker-Modi)
    - `rpx` (RolePlay Xtreme / RPX Pro — lokales PnP RPG-Kontrollzentrum)
-   - `KlangpultLight` (Klangpult light — kostenlose Recorder- & Planer-Freeware-Funnel-Edition)
+   - `KlangpultLight` (kostenlose Recorder- und Planer-Edition)
    - `.github` (Öffentliches Organisationsprofil und Community-Standards)
 2. **Zweisprachige Profilseiten-Parität:** `profile/README_de.md` wurde auf 100% inhaltliche und visuelle Parität mit `profile/README.md` ausgebaut (inkl. Badges, Showcase-Bannern, Systemarchitektur-Mermaid-Diagramm, Ökosystem-Netzwerk-Tabelle, Projektfamilien und SEO-Suchbegriffen).
 3. **Metadaten & Zeitstempel:** Alle Dokumente (`README.md`, `profile/README.md`, `profile/README_de.md`, `llms.txt`, `CHANGELOG.md`) auf den Stand **2026-08-14** synchronisiert.

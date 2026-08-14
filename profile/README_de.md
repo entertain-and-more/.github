@@ -19,7 +19,7 @@
 
 **Lokale Spiele-, RPG- und Podcast-Werkzeuge mit optionalen KI-Funktionen.**
 
-entertain-and-more ist der Unterhaltungs- und Medien-Werkzeugzweig des `open-bricks`- und `ellmos`-Ökosystems. Die öffentlichen Projekte sind lokal zuerst, nachvollziehbar und für den praktischen Einsatz gedacht: Terminal-Schach, Pen-and-Paper-RPG-Unterstützung (rpx) und lokale Podcast-Produktion (Klangpult light). Jede Anwendung bewahrt die volle Datenhoheit lokal auf dem System der Nutzer und bietet optionale KI-Erweiterungen für Spieler, Spielleitungen und Medienschaffende.
+entertain-and-more ist der Unterhaltungs- und Medien-Werkzeugzweig des `open-bricks`- und `ellmos`-Ökosystems. Die öffentlichen Projekte sind lokal zuerst, nachvollziehbar und für den praktischen Einsatz gedacht: Terminal-Schach, Pen-and-Paper-RPG-Unterstützung (rpx) und lokale Podcast-Produktion (KlangpultLight). Jede Anwendung bewahrt die volle Datenhoheit lokal auf dem System der Nutzer und bietet optionale KI-Erweiterungen für Spieler, Spielleitungen und Medienschaffende.
 
 > [!NOTE]
 > **Öffentlicher Navigationsindex:** Abgeglichen mit der Live-GitHub-API am **2026-08-14**. Alle 3 aktiven Softwareprojekte sowie das Profil-Repository sind hier vollständig erfasst. Private oder rein interne Arbeitsstände werden im öffentlichen Profil bewusst nicht beworben.
@@ -33,7 +33,7 @@ Die Banner dienen als Direktlinks; Detailinformationen finden sich in den nachfo
 
 <p align="center">
   <a href="https://github.com/entertain-and-more/rpx"><img src="https://raw.githubusercontent.com/entertain-and-more/rpx/master/assets/banner.svg" alt="rpx — RolePlay Xtreme" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
-  <a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight — Klangpult light" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a>
+  <a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight Podcast-Recorder" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a>
 </p>
 
 *Hinweis:* [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) ist ein reines Terminal- und CLI-Werkzeug und wird direkt im Verzeichnis unten aufgeführt.
@@ -80,7 +80,7 @@ Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Soft
 |---|---|---|---|---|
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal-Schach mit lokalem 2-Spieler-Modus, Minimax-Tiefe, optionalem Claude-API-Modus, Claude-Code-Dateiarbeiter, vollständigen Schachregeln, UCI-Eingabe, Engine-Hinweisen und Taktikanalyse | Python Standardbibliothek, optionale Anthropic-API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Öffentliches Repo; letzter Push **2026-07-27** |
 | [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: Offline-Kontrollzentrum für Pen-and-Paper-Spielleitung, Welten, Karten, Charaktere, Sound, Spielerschirm, KI-Prompts, JSON-RPC-Steuerung und importierbare Kampagnenbündel | Python, PySide6, JSON-RPC, statische PWA | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Öffentliches Repo; letzter Push **2026-08-14** |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Klangpult light: kostenloses Recorder + Planer Podcast- und Streaming-Produktionswerkzeug (Freeware-Funnel-Edition des proprietären, privaten `Klangpult` USB-Podcast-Studios) — lokale Aufnahme, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `Klangpult light`, `podcast recorder`, `podcast planner`, `local podcast production` | Öffentliches Repo; letzter Push **2026-08-14** |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Kostenloses Recorder- und Planer-Werkzeug für Podcast- und Streaming-Produktion mit optionaler kommerzieller Edition — lokale Aufnahme, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production` | Öffentliches Repo; letzter Push **2026-08-14** |
 | [.github](https://github.com/entertain-and-more/.github) | Organisationsprofil, Standard-Issue- und PR-Templates, llms.txt und Community-Standards | GitHub Profil-Repository | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Öffentliches Profil-Repo; geprüft **2026-08-14** |
 
 ## Ökosystem-Netzwerk
@@ -96,7 +96,7 @@ Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Soft
 | [dev-bricks](https://github.com/dev-bricks) | Entwickler-Werkzeuge | `DevCenter`, `apiprober`, `lock-master`, `pythonbox`, `CodeBox` |
 | [research-line](https://github.com/research-line) | Offene Forschung & mathematische Physik | `crm-cosmology`, `fst-nash`, `epstein-network`, `rh-even-dominance` |
 | [biotec-line](https://github.com/biotec-line) | Bioinformatik | `VFDistiller`, `genotype-to-vcf` |
-| [assistassets-ai](https://github.com/assistassets-ai) | Lokale Finanzanalyse | `FinancialProof`, `terminpilot` |
+| [assistassets-ai](https://github.com/assistassets-ai) | Lokale Finanzanalyse | `FinancialProof` |
 | [entertain-and-more](https://github.com/entertain-and-more) | Spiele, RPG- & Podcast-Tools | `ChatAndChess`, `rpx`, `KlangpultLight` |
 | [lukisch](https://github.com/lukisch) | Entwickler-Hauptprofil | Flaggschiff-Projekte und Portfolio-Übersicht |
 
@@ -112,7 +112,7 @@ Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Soft
 
 ### Lokale Podcast-Produktion
 
-- [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) („Klangpult light“) ist das kostenlose Recorder- und Planer-Podcast-Werkzeug — die Freeware-Funnel-Edition des kommerziellen USB-Podcast-Studios `Klangpult`. Es kombiniert einen PySide6-Desktop-Recorder (System-Audio/Video-Aufnahme, Live-Transkription) mit einem browserbasierten Planer (Episoden- und Asset-Planung, Teleprompter, KI-Monitor).
+- [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) ist das kostenlose Recorder- und Planer-Werkzeug mit optionaler kommerzieller Edition. Es kombiniert einen PySide6-Desktop-Recorder (System-Audio/Video-Aufnahme, Live-Transkription) mit einem browserbasierten Planer (Episoden- und Asset-Planung, Teleprompter, KI-Monitor).
 
 ## Design- und Entwicklungsprinzipien
 
@@ -129,4 +129,4 @@ Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Soft
 - Verwandte KI-Infrastruktur: [ellmos-ai](https://github.com/ellmos-ai)
 - Übergreifende Software-Suite: [open-bricks](https://github.com/open-bricks)
 
-Suchbegriffe: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `Klangpult light podcast recorder`, `local podcast production freeware`, `entertain-and-more`.
+Suchbegriffe: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `KlangpultLight podcast recorder`, `local podcast production freeware`, `entertain-and-more`.

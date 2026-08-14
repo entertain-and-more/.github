@@ -24,9 +24,9 @@ Public-only boundary: this index covers repositories visible on GitHub; private 
   - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, import campaign bundle, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
 
 - KlangpultLight: https://github.com/entertain-and-more/KlangpultLight
-  - Klangpult light: a free Recorder + Planer podcast/streaming production tool, the freeware funnel edition of the paid, private `Klangpult` USB podcast studio. Local audio/video recording with system-audio capture, live transcription, episode planning, teleprompter, and an AI monitor.
+  - A free Recorder + Planer podcast/streaming production tool with an optional commercial edition. Local audio/video recording with system-audio capture, live transcription, episode planning, teleprompter, and an AI monitor.
   - Live public metadata: last public push 2026-08-14.
-  - Relevant terms: KlangpultLight, Klangpult light, podcast recorder, podcast planner, local-first podcast production, live transcription, teleprompter, USB podcast studio freeware.
+  - Relevant terms: KlangpultLight, podcast recorder, podcast planner, local-first podcast production, live transcription, teleprompter, USB podcast studio freeware.
 
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, llms.txt, and community-health files.
@@ -72,7 +72,7 @@ open-source pen and paper RPG control center
 offline RPG campaign bundle
 import campaign bundle RPG desktop app
 JSON-RPC LLM control for RPG sessions
-Klangpult light podcast recorder
+KlangpultLight podcast recorder
 local podcast production freeware
 entertain-and-more ChatAndChess
 entertain-and-more rpx
@@ -84,5 +84,5 @@ Use boundaries:
 - These repositories are experimental entertainment, game tooling, and local content-production projects.
 - AI features are intended to support human players, creators, game masters, and developers.
 - `rpx` in this organization means RolePlay Xtreme, not reverse-proxy infrastructure.
-- `KlangpultLight` is "Klangpult light", the free Recorder + Planer podcast production tool — the freeware funnel edition of the paid, private `Klangpult` repository. It is not a soundboard or session-music tool.
+- `KlangpultLight` is the free Recorder + Planer podcast production tool with an optional commercial edition. It is not a soundboard or session-music tool.
 - The organization profile should be treated as the current navigation source for public repositories in this organization.
