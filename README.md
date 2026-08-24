@@ -2,7 +2,7 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
-Checked **2026-08-14**: the root README, profile READMEs (English and German), and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+Checked **2026-08-24**: the root README, profile READMEs (English and German), and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
 
 ## Current Public Index
 
@@ -10,8 +10,8 @@ Checked **2026-08-14**: the root README, profile READMEs (English and German), a
 |---|---|---|---|
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess, Minimax bot, optional Claude API mode, and Claude Code worker integration | 2026-07-27 | `ChatAndChess terminal chess`, `Python Minimax chess`, `Claude Code chess worker` |
 | [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme tabletop RPG control center for game masters, maps, sound, player screens, and LLM control | 2026-08-14 | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `JSON-RPC LLM control` |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast production tool with an optional commercial edition | 2026-08-14 | `KlangpultLight`, `podcast recorder`, `podcast planner` |
-| [.github](https://github.com/entertain-and-more/.github) | Public organization profile, shared issue templates, PR template, llms.txt, and community health files | 2026-08-14 | `entertain-and-more`, `GitHub org README`, `llms.txt public repo directory` |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast production tool with local recording, planning, live transcription, teleprompter, and AI monitor workflows | 2026-08-24 | `KlangpultLight`, `podcast recorder`, `podcast planner`, `live transcription`, `teleprompter` |
+| [.github](https://github.com/entertain-and-more/.github) | Public organization profile, shared issue templates, PR template, llms.txt, and community health files | 2026-08-24 | `entertain-and-more`, `GitHub org README`, `llms.txt public repo directory` |
 
 ## Files & Structure
 
@@ -28,4 +28,4 @@ Checked **2026-08-14**: the root README, profile READMEs (English and German), a
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contributor guidance |
 | [SECURITY.md](SECURITY.md) | Security reporting guidance |
 
-The public directory covers 3 software applications plus this `.github` infrastructure repository. No public repository is missing from the profile directory as of the 2026-08-14 live GitHub API check.
+The public directory covers 3 software applications plus this `.github` infrastructure repository. No public repository is missing from the profile directory as of the 2026-08-24 live GitHub API check.

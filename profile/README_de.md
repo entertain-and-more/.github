@@ -22,7 +22,7 @@
 entertain-and-more ist der Unterhaltungs- und Medien-Werkzeugzweig des `open-bricks`- und `ellmos`-Ökosystems. Die öffentlichen Projekte sind lokal zuerst, nachvollziehbar und für den praktischen Einsatz gedacht: Terminal-Schach, Pen-and-Paper-RPG-Unterstützung (rpx) und lokale Podcast-Produktion (KlangpultLight). Jede Anwendung bewahrt die volle Datenhoheit lokal auf dem System der Nutzer und bietet optionale KI-Erweiterungen für Spieler, Spielleitungen und Medienschaffende.
 
 > [!NOTE]
-> **Öffentlicher Navigationsindex:** Abgeglichen mit der Live-GitHub-API am **2026-08-14**. Alle 3 aktiven Softwareprojekte sowie das Profil-Repository sind hier vollständig erfasst. Private oder rein interne Arbeitsstände werden im öffentlichen Profil bewusst nicht beworben.
+> **Öffentlicher Navigationsindex:** Abgeglichen mit der Live-GitHub-API am **2026-08-24**. Alle 3 aktiven Softwareprojekte sowie das Profil-Repository sind hier vollständig erfasst. Private oder rein interne Arbeitsstände werden im öffentlichen Profil bewusst nicht beworben.
 
 > [!TIP]
 > **Lokal-Zuerst & Offline-Betrieb:** Die öffentlichen Werkzeuge von `entertain-and-more` funktionieren standardmäßig 100% offline. KI-Funktionen wie Anthropic-API-Anbindung, Claude-Code-Dateiarbeiter, JSON-RPC-Brücken und Live-Transkription sind optionale Ergänzungen, die Workflows erweitern, ohne Kernfunktionen an Cloud-Dienste zu binden.
@@ -74,14 +74,14 @@ graph TD
 
 ## Öffentlicher Repository-Index
 
-Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Softwareanwendungen und 1 Profil-Repository.
+Geprüft am **2026-08-24**: Die Organisation umfasst derzeit 3 öffentliche Softwareanwendungen und 1 Profil-Repository.
 
 | Projekt | Schwerpunkt | Technologie-Stack | Suchbegriffe | Öffentliche Aktivität |
 |---|---|---|---|---|
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal-Schach mit lokalem 2-Spieler-Modus, Minimax-Tiefe, optionalem Claude-API-Modus, Claude-Code-Dateiarbeiter, vollständigen Schachregeln, UCI-Eingabe, Engine-Hinweisen und Taktikanalyse | Python Standardbibliothek, optionale Anthropic-API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer` | Öffentliches Repo; letzter Push **2026-07-27** |
 | [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: Offline-Kontrollzentrum für Pen-and-Paper-Spielleitung, Welten, Karten, Charaktere, Sound, Spielerschirm, KI-Prompts, JSON-RPC-Steuerung und importierbare Kampagnenbündel | Python, PySide6, JSON-RPC, statische PWA | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control` | Öffentliches Repo; letzter Push **2026-08-14** |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Kostenloses Recorder- und Planer-Werkzeug für Podcast- und Streaming-Produktion mit optionaler kommerzieller Edition — lokale Aufnahme, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production` | Öffentliches Repo; letzter Push **2026-08-14** |
-| [.github](https://github.com/entertain-and-more/.github) | Organisationsprofil, Standard-Issue- und PR-Templates, llms.txt und Community-Standards | GitHub Profil-Repository | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Öffentliches Profil-Repo; geprüft **2026-08-14** |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Kostenloses Recorder- und Planer-Werkzeug für Podcast- und Streaming-Produktion mit optionaler kommerzieller Edition — lokale Aufnahme, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production`, `live transcription`, `teleprompter`, `USB podcast studio freeware` | Öffentliches Repo; letzter Push **2026-08-24** |
+| [.github](https://github.com/entertain-and-more/.github) | Organisationsprofil, Standard-Issue- und PR-Templates, llms.txt und Community-Standards | GitHub Profil-Repository | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory` | Öffentliches Profil-Repo; geprüft **2026-08-24** |
 
 ## Ökosystem-Netzwerk
 
@@ -129,4 +129,4 @@ Geprüft am **2026-08-14**: Die Organisation umfasst derzeit 3 öffentliche Soft
 - Verwandte KI-Infrastruktur: [ellmos-ai](https://github.com/ellmos-ai)
 - Übergreifende Software-Suite: [open-bricks](https://github.com/open-bricks)
 
-Suchbegriffe: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `KlangpultLight podcast recorder`, `local podcast production freeware`, `entertain-and-more`.
+Suchbegriffe: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `KlangpultLight podcast recorder`, `local podcast production freeware`, `live transcription teleprompter`, `USB podcast studio freeware`, `entertain-and-more`.

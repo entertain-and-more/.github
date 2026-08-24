@@ -2,6 +2,13 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-08-24]
+
+### Updated
+- **Org Profile Freshness Audit:** Revalidated the public-only repository index against live GitHub metadata. The public profile still contains `ChatAndChess`, `rpx`, `KlangpultLight`, and `.github`; no public repository is missing.
+- **KlangpultLight Discovery Sync:** Updated the latest public activity timestamp to `2026-08-24` and expanded podcast-production discovery terms for live transcription, teleprompter, USB podcast studio workflows, and local audio/video recording.
+- **Machine Context Sync:** Refreshed `llms.txt`, root `README.md`, and both profile READMEs to the 2026-08-24 check date while preserving the public-only privacy boundary.
+
 ## [2026-08-14]
 
 ### Added & Updated

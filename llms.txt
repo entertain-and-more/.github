@@ -1,6 +1,6 @@
 # entertain-and-more
 
-## Last-checked: 2026-08-14
+## Last-checked: 2026-08-24
 
 Canonical organization: https://github.com/entertain-and-more
 Organization profile repository: https://github.com/entertain-and-more/.github
@@ -9,28 +9,28 @@ entertain-and-more is an organization for local-first games, AI-assisted RPG gam
 
 Public repository directory:
 
-Checked: 2026-08-14
+Checked: 2026-08-24
 Public repository count: 4 (3 applications + 1 profile infrastructure repository)
 Public-only boundary: this index covers repositories visible on GitHub; private or internal work is not advertised in the public organization profile.
 
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
   - Terminal chess with local two-player mode, Minimax bot, optional Claude API mode, Claude Code file-worker mode, full chess rules, UCI move input, engine-hint modes, and a tactics analyzer.
-  - Live public metadata: last public push 2026-07-27; one public star; no forks at the 2026-08-14 check.
+  - Live public metadata: last public push 2026-07-27; one public star; no forks at the 2026-08-24 check.
   - Relevant terms: ChatAndChess, terminal chess, Python chess game, Minimax chess bot, Claude API chess, Claude Code chess worker, UCI chess moves, engine hint chess, tactics analyzer, AI-assisted chess, local-first chess.
 
 - rpx: https://github.com/entertain-and-more/rpx
   - RPX Pro / RolePlay Xtreme, an open-source offline pen-and-paper RPG control center for worlds, maps, characters, missions, soundboard, player screen, AI prompts, JSON-RPC LLM control, import/exportable campaign bundles, and PWA campaign-bundle viewing.
-  - Live public metadata: last public push 2026-08-14; one public star; no forks at the 2026-08-14 check.
+  - Live public metadata: last public push 2026-08-14; one public star; no forks at the 2026-08-24 check.
   - Relevant terms: RPX Pro, RolePlay Xtreme, tabletop RPG, game-master tools, RPG session manager, maps, soundboard, LLM integration, JSON-RPC, PWA companion, import campaign bundle, rpx-campaign-bundle-v1, Python, PySide6, open-source pen and paper control center.
 
 - KlangpultLight: https://github.com/entertain-and-more/KlangpultLight
   - A free Recorder + Planer podcast/streaming production tool with an optional commercial edition. Local audio/video recording with system-audio capture, live transcription, episode planning, teleprompter, and an AI monitor.
-  - Live public metadata: last public push 2026-08-14.
-  - Relevant terms: KlangpultLight, podcast recorder, podcast planner, local-first podcast production, live transcription, teleprompter, USB podcast studio freeware.
+  - Live public metadata: last public push 2026-08-24; no public stars; no forks at the 2026-08-24 check.
+  - Relevant terms: KlangpultLight, podcast recorder, podcast planner, local-first podcast production, live transcription, teleprompter, USB podcast studio freeware, local audio/video recording, AI monitor.
 
 - .github: https://github.com/entertain-and-more/.github
   - Organization profile, shared issue templates, pull request template, llms.txt, and community-health files.
-  - Live public metadata: public org profile checked 2026-08-14; last public push 2026-08-14.
+  - Live public metadata: public org profile checked 2026-08-24; last public push 2026-08-24.
   - Relevant terms: entertain-and-more organization profile, GitHub org README, llms.txt, public repo directory.
 
 Related organizations:
@@ -74,6 +74,9 @@ import campaign bundle RPG desktop app
 JSON-RPC LLM control for RPG sessions
 KlangpultLight podcast recorder
 local podcast production freeware
+live transcription teleprompter
+USB podcast studio freeware
+local audio video recording podcast
 entertain-and-more ChatAndChess
 entertain-and-more rpx
 entertain-and-more KlangpultLight
