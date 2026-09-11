@@ -2,6 +2,16 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-09-11]
+
+### Updated & Enhanced
+- **Org Profile Freshness & Health Audit:** Revalidated full repository inventory via GitHub API against public-only policy. Confirmed 4 public repositories (`ChatAndChess`, `rpx`, `KlangpultLight`, `.github`) and verified 13 private repositories remain strictly unadvertised.
+- **KlangpultLight Activity Sync:** Updated latest public push timestamp to `2026-09-10` following its latest multi-OS CI hardening and hygiene release (`cfce2b5`).
+- **Showcase Expansion:** Added `ChatAndChess` gameplay screenshot banner with direct navigation link to the showcase carousel in both English and German profile pages (now featuring 3 visual product cards).
+- **Mermaid Syntax Hardening:** Quoted edge labels with special characters (`&`) in system architecture diagrams to satisfy `HOOK-BANNER-ASSET-01` and guarantee clean rendering across all markdown viewers.
+- **Context & Health Files Sync:** Refreshed `llms.txt`, root `README.md`, `BEFUNDE.md`, `profile/README.md`, and `profile/README_de.md` to `2026-09-11`.
+- **Privacy & Safety Verification:** Passed automated privacy test `tests/profile_privacy.ps1` with 0 leaks across all 7 indexed files.
+
 ## [2026-08-24]
 
 ### Updated
