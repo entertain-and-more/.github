@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*conflict*
+*.sync-conflict*
+*.sync-temp*
+LOCK
+LOCK.*
+LOCK*.txt

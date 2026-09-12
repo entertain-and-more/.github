@@ -2,6 +2,18 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-09-12]
+
+### Added & Updated
+- **Org Profile Health & Startseiten-Audit (Routine: GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):** Revalidierung des gesamten Organisationsprofils gegen die Live-GitHub-API.
+- **Live-Aktivitäts-Snapshot 2026-09-12:** Aktualisierung der Push-Aktivitätsdaten in `profile/README.md`, `profile/README_de.md`, `README.md` und `llms.txt` (`rpx`: 2026-09-11, `KlangpultLight`: 2026-09-11, `ChatAndChess`: 2026-07-27, `.github`: 2026-09-12).
+- **Discoverability & Topics:** Ergänzung der Homepage `https://github.com/entertain-and-more/KlangpultLight#readme` und Erweiterung der GitHub Topics (`pyside6`, `audio-recorder`, `teleprompter`, `live-transcription`) für `KlangpultLight`.
+- **Badges & Härtung:** Neue Shields.io Badges für `Security_SLA-48h_Response` und Verifikation `2026-09-12` in EN und DE.
+- **Ökosystem-Netzwerk:** Erweiterung der Schwester-Organisationstabelle um `um-bruch` auf 11 Einheiten.
+- **Sicherheitsrichtlinie (`SECURITY.md`):** Modernisierung auf das standardisierte zweisprachige Format mit 48h Response SLA, 5 Werktage Triage, offiziellen Maintainer-Kontakten und Sicherheitsinvarianten (Zero-Egress, Non-Elevation, Data Integrity).
+- **Automatisierte Vertragstestsuite (`tests/test_profile_parity.py`):** Implementierung einer 9-Punkte Pytest Contract-Suite zur Sicherung von Fence-Balance, Inventar-Vollständigkeit, Leak-Freiheit privater Repositories, Zeitstempeln und Mermaid-Syntax.
+- **Repository-Härtung:** `.gitignore` für Multi-Host-Konfliktschutz, Lock-Marker und Pytest-Caches angelegt.
+
 ## [2026-09-11]
 
 ### Updated & Enhanced
