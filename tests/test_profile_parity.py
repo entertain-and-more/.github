@@ -41,6 +41,9 @@ PRIVATE_REPOS = [
     "CuteStrike",
     "MafiaCastle",
     "GhostTrain",
+    "TreasureIsland",
+    "DungeonMaster",
+    "EscapeRoomBuilder",
 ]
 
 
@@ -103,8 +106,8 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-12 across profile files."""
-    expected_iso = "2026-09-12"
+    """Verify verification date 2026-09-20 across profile files."""
+    expected_iso = "2026-09-20"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -128,8 +131,10 @@ def test_activity_snapshot_integrity():
         assert repo in en_content
         assert repo in de_content
 
-    assert "2026-09-11" in en_content
-    assert "2026-09-11" in de_content
+    assert "2026-09-20" in en_content
+    assert "2026-09-20" in de_content
+    assert "2026-09-19" in en_content
+    assert "2026-09-19" in de_content
     assert "2026-07-27" in en_content
     assert "2026-07-27" in de_content
 

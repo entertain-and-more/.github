@@ -2,6 +2,24 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-09-20]
+
+### Added & Updated
+- **Org Profile Health & Startseiten-Audit (Routine: GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):** Vollständige Revalidierung des gesamten Organisationsprofils gegen die Live-GitHub-API.
+- **Öffentliches vs. Privates Inventar (Zero-Leak Defense):** Bestätigung von exakt 4 öffentlichen Repositories (`ChatAndChess`, `rpx`, `KlangpultLight`, `.github`). Alle 16 internen Repositories verbleiben strikt ungenannt und werden im öffentlichen Profil nicht beworben.
+- **Live-Aktivitäts-Snapshot 2026-09-20:** Aktualisierung der Push-Aktivitätsdaten in `profile/README.md`, `profile/README_de.md`, `README.md` und `llms.txt`:
+  - `rpx`: Letzter Push am `2026-09-20` (PushedAt `2026-09-20T02:52:40Z`, Commit `00fa31b`: Bundle Export Crashfix & Cascade Cleanup)
+  - `KlangpultLight`: Letzter Push am `2026-09-19` (PushedAt `2026-09-19T20:56:37Z`, Commit `12ab8d2`: `projects_api` Path Traversal & Payload Härtung)
+  - `ChatAndChess`: Letzter Push am `2026-07-27`
+  - `.github`: Stand und Prüfung aktualisiert auf `2026-09-20`
+- **Discoverability & SEO-Topic Enrichment (20/20 Parität):** Alle 3 öffentlichen Software-Repositories via GitHub CLI auf das Maximum von 20 Topics optimiert:
+  - `ChatAndChess`: Ergänzt um `uci-chess`, `local-first`, `zero-egress`, `tactics-analyzer` (20/20)
+  - `rpx`: Ergänzt um `roleplay-xtreme`, `rpx-pro`, `local-first`, `zero-egress`, `soundboard` (20/20)
+  - `KlangpultLight`: Ergänzt um `podcast-studio`, `episode-planner`, `ai-monitor`, `multitrack-recording`, `zero-egress`, `offline-first` (20/20)
+- **Badges & Härtung:** Shields.io Badges für `Verified-2026--09--20-blue` (EN) und `Geprüft-2026--09--20-blue` (DE) synchronisiert.
+- **Automatisierte Vertragstestsuite (`tests/test_profile_parity.py`):** Test-Denylist auf alle 16 identifizierten internen Repositories erweitert; Zeitstempel- und Aktivitäts-Assertions auf den Prüfstand `2026-09-20` aktualisiert (9/9 Pytest Tests bestanden).
+- **Privacy Regression Test (`tests/profile_privacy.ps1`):** Erfolgreich validiert (0 Leaks über alle 7 Profildateien).
+
 ## [2026-09-12]
 
 ### Added & Updated

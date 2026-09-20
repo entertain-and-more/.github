@@ -11,7 +11,7 @@
   <a href="https://github.com/entertain-and-more/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits--SLA-48h_Reaktionszeit-brightgreen?style=flat-square&logo=security" alt="Sicherheits-SLA: 48h Reaktionszeit" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-MIT-brightgreen?style=flat-square" alt="Lizenz: MIT" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM--Kontext-llms.txt-orange?style=flat-square" alt="LLM-Kontext: llms.txt" /></a>
-  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Geprüft-2026--09--12-blue?style=flat-square" alt="Geprüft 2026-09-12" /></a>
+  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Geprüft-2026--09--20-blue?style=flat-square" alt="Geprüft 2026-09-20" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=flat-square" alt="Englische Version" /></a>
 </p>
 
@@ -24,7 +24,7 @@
 entertain-and-more ist der Unterhaltungs- und Medien-Werkzeugzweig des `open-bricks`- und `ellmos`-Ökosystems. Die öffentlichen Projekte sind lokal zuerst, nachvollziehbar und für den praktischen Einsatz gedacht: Terminal-Schach, Pen-and-Paper-RPG-Unterstützung (rpx) und lokale Podcast-Produktion (KlangpultLight). Jede Anwendung bewahrt die volle Datenhoheit lokal auf dem System der Nutzer und bietet optionale KI-Erweiterungen für Spieler, Spielleitungen und Medienschaffende.
 
 > [!NOTE]
-> **Öffentlicher Navigationsindex:** Abgeglichen mit der Live-GitHub-API am **2026-09-12**. Alle 3 aktiven Softwareprojekte sowie das Profil-Repository sind hier vollständig erfasst. Private oder rein interne Arbeitsstände werden im öffentlichen Profil bewusst nicht beworben.
+> **Öffentlicher Navigationsindex:** Abgeglichen mit der Live-GitHub-API am **2026-09-20**. Alle 3 aktiven Softwareprojekte sowie das Profil-Repository sind hier vollständig erfasst. Private oder rein interne Arbeitsstände werden im öffentlichen Profil bewusst nicht beworben.
 
 > [!TIP]
 > **Lokal-Zuerst & Offline-Betrieb:** Die öffentlichen Werkzeuge von `entertain-and-more` funktionieren standardmäßig 100% offline. KI-Funktionen wie Anthropic-API-Anbindung, Claude-Code-Dateiarbeiter, JSON-RPC-Brücken und Live-Transkription sind optionale Ergänzungen, die Workflows erweitern, ohne Kernfunktionen an Cloud-Dienste zu binden.
@@ -75,14 +75,14 @@ graph TD
 
 ## Öffentlicher Repository-Index
 
-Geprüft am **2026-09-12**: Die Organisation umfasst derzeit 3 öffentliche Softwareanwendungen und 1 Profil-Repository.
+Geprüft am **2026-09-20**: Die Organisation umfasst derzeit 3 öffentliche Softwareanwendungen und 1 Profil-Repository.
 
 | Projekt | Schwerpunkt | Technologie-Stack | Suchbegriffe | Öffentliche Aktivität |
 |---|---|---|---|---|
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal-Schach mit lokalem 2-Spieler-Modus, Minimax-Tiefe (1–5), optionalem Claude-API-Modus, Claude-Code-Dateiarbeiter (`chess.py --worker`), vollständigen Schachregeln, UCI-Eingabe, Engine-Hinweisen und Taktikanalyse (`chess_analyze.py`) | Python Standardbibliothek, optionale Anthropic-API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer`, `AI chess bot` | Öffentliches Repo; letzter Push **2026-07-27** |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: Offline-Kontrollzentrum für Pen-and-Paper-Spielleitung, Welten, Karten, Charaktere, Sound, Spielerschirm, KI-Prompts, JSON-RPC-Steuerung und importierbare Kampagnenbündel (`rpx-campaign-bundle-v1`) mit PWA-Begleiter | Python, PySide6, JSON-RPC, statische PWA | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control`, `soundboard` | Öffentliches Repo; letzter Push **2026-09-11** |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Kostenloses Recorder- und Planer-Werkzeug für Podcast- und Streaming-Produktion mit optionaler kommerzieller Edition — lokale Audio/Video-Aufnahme, System-Audio-Erfassung, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production`, `live transcription`, `teleprompter`, `USB podcast studio freeware` | Öffentliches Repo; letzter Push **2026-09-11** |
-| [.github](https://github.com/entertain-and-more/.github) | Organisationsprofil, Standard-Issue- und PR-Templates, `llms.txt` und Community-Standards | GitHub Profil-Repository | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory`, `community templates` | Öffentliches Profil-Repo; geprüft **2026-09-12** |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: Offline-Kontrollzentrum für Pen-and-Paper-Spielleitung, Welten, Karten, Charaktere, Sound, Spielerschirm, KI-Prompts, JSON-RPC-Steuerung und importierbare Kampagnenbündel (`rpx-campaign-bundle-v1`) mit PWA-Begleiter | Python, PySide6, JSON-RPC, statische PWA | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control`, `soundboard` | Öffentliches Repo; letzter Push **2026-09-20** |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Kostenloses Recorder- und Planer-Werkzeug für Podcast- und Streaming-Produktion mit optionaler kommerzieller Edition — lokale Audio/Video-Aufnahme, System-Audio-Erfassung, Live-Transkription, Episodenplanung, Teleprompter, KI-Monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production`, `live transcription`, `teleprompter`, `USB podcast studio freeware` | Öffentliches Repo; letzter Push **2026-09-19** |
+| [.github](https://github.com/entertain-and-more/.github) | Organisationsprofil, Standard-Issue- und PR-Templates, `llms.txt` und Community-Standards | GitHub Profil-Repository | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory`, `community templates` | Öffentliches Profil-Repo; geprüft **2026-09-20** |
 
 ## Ökosystem-Netzwerk
 
