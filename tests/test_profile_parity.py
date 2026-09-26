@@ -29,21 +29,9 @@ SISTER_ORGS = [
 ]
 
 PRIVATE_REPOS = [
-    "ChainReaction",
-    "StreetRacer",
-    "CultureEvolution",
-    "RescueMe",
-    "HauntedHouse",
-    "BattleStage",
-    "StreamingGuide",
-    "BattleChess3D",
-    "RealmWars",
-    "CuteStrike",
-    "MafiaCastle",
-    "GhostTrain",
-    "TreasureIsland",
-    "DungeonMaster",
-    "EscapeRoomBuilder",
+    name.strip()
+    for name in os.environ.get("PROFILE_PRIVATE_REPO_DENYLIST", "").split(";")
+    if name.strip()
 ]
 
 
@@ -98,7 +86,10 @@ def test_private_repo_leak_guard():
     for rel_path in target_files:
         content = get_file_content(rel_path)
         for priv in PRIVATE_REPOS:
-            assert priv not in content, f'Leak violation: private repo "{priv}" found in {rel_path}'
+            pattern = rf"(?<![A-Za-z0-9_-]){re.escape(priv)}(?![A-Za-z0-9_-])"
+            assert not re.search(pattern, content, flags=re.IGNORECASE), (
+                f'Leak violation: private repo "{priv}" found in {rel_path}'
+            )
 
         # Ensure standalone private Klangpult (not KlangpultLight) is not referenced
         klangpult_matches = re.findall(r"\bKlangpult\b(?!Light)", content)
@@ -106,8 +97,8 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-20 across profile files."""
-    expected_iso = "2026-09-20"
+    """Verify verification date 2026-09-26 across profile files."""
+    expected_iso = "2026-09-26"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -131,12 +122,9 @@ def test_activity_snapshot_integrity():
         assert repo in en_content
         assert repo in de_content
 
-    assert "2026-09-20" in en_content
-    assert "2026-09-20" in de_content
-    assert "2026-09-19" in en_content
-    assert "2026-09-19" in de_content
-    assert "2026-07-27" in en_content
-    assert "2026-07-27" in de_content
+    for date in ["2026-09-26", "2026-09-25", "2026-09-22"]:
+        assert date in en_content
+        assert date in de_content
 
 
 def test_ecosystem_cross_linking():

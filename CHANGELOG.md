@@ -2,6 +2,14 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-09-26]
+
+### Added & Updated
+- **Org Profile Health & Startseiten-Audit (Routine: GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):** Revalidierung des öffentlichen Organisationsprofils gegen die Live-GitHub-API.
+- **Öffentliches Inventar:** Bestätigung von exakt 4 öffentlichen Repositories (`ChatAndChess`, `rpx`, `KlangpultLight`, `.github`); keine öffentlichen Repositories fehlen im Profil, Root-README oder `llms.txt`.
+- **Live-Aktivitäts-Snapshot 2026-09-26:** Aktualisierte öffentliche Pushdaten: `ChatAndChess` `2026-09-22`, `rpx` `2026-09-25`, `KlangpultLight` `2026-09-26`, `.github` geprüft `2026-09-26`.
+- **Zero-Leak-Testhärtung:** Die committed Pytest-Suite enthält keine feste Liste konkreter Reponamen mehr; konkrete Denylisten werden zur Laufzeit eingespeist.
+
 ## [2026-09-20]
 
 ### Added & Updated
