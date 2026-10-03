@@ -97,8 +97,8 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-26 across profile files."""
-    expected_iso = "2026-09-26"
+    """Verify verification date 2026-10-03 across profile files."""
+    expected_iso = "2026-10-03"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -122,7 +122,7 @@ def test_activity_snapshot_integrity():
         assert repo in en_content
         assert repo in de_content
 
-    for date in ["2026-09-26", "2026-09-25", "2026-09-22"]:
+    for date in ["2026-10-03", "2026-10-02", "2026-09-22"]:
         assert date in en_content
         assert date in de_content
 
@@ -164,3 +164,24 @@ def test_security_policy_parity():
     assert "security@open-bricks.org" in security_content
     assert "security@ellmos.ai" in security_content
     assert "Zero-Egress" in security_content
+
+
+def test_verification_badges():
+    """Verify date-stamped verification badges in profile READMEs."""
+    en_content = get_file_content("profile/README.md")
+    de_content = get_file_content("profile/README_de.md")
+    assert "Verified-2026--10--03-blue" in en_content
+    assert "Geprüft-2026--10--03-blue" in de_content
+
+
+def test_ecosystem_zero_leak_hardening():
+    """Verify private repos from other orgs are not mentioned in ecosystem tables."""
+    target_files = [
+        "profile/README.md",
+        "profile/README_de.md",
+        "README.md",
+        "llms.txt",
+    ]
+    for rel_path in target_files:
+        content = get_file_content(rel_path)
+        assert "epstein-network" not in content, f"Leaked internal repo found in {rel_path}"

@@ -2,6 +2,21 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-10-03]
+
+### Added & Updated
+- **Org Profile Health & Startseiten-Audit (Routine: GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):** Vollständige Revalidierung des Organisationsprofils gegen die Live-GitHub-API.
+- **Öffentliches Inventar & Zero-Leak-Sicherheit:** Bestätigung von exakt 4 öffentlichen Repositories (`rpx`, `KlangpultLight`, `ChatAndChess`, `.github`); alle 19 internen Repositories verbleiben strikt ungenannt (Zero-Leak-Invariante zu 100% gewahrt, 0 Leaks).
+- **Live-Aktivitäts-Snapshot 2026-10-03:** Aktualisierte öffentliche Pushdaten:
+  - `rpx`: Letzter Push am `2026-10-03` (PushedAt `2026-10-03T11:25:11Z`, 20/20 Topics)
+  - `KlangpultLight`: Letzter Push am `2026-10-02` (PushedAt `2026-10-02T22:08:39Z`, 20/20 Topics)
+  - `ChatAndChess`: Letzter Push am `2026-09-22` (PushedAt `2026-09-22T14:42:36Z`, 20/20 Topics)
+  - `.github`: Stand geprüft und synchronisiert am `2026-10-03`
+- **Showcase-Bannereinbindung:** Alle 3 Produkt-Banner via HTTP HEAD verifiziert (100% HTTP 200: SVG für `rpx` und `KlangpultLight`, JPEG für `ChatAndChess`).
+- **Zero-Leak Ökosystem-Härtung:** Geschwister-Tabelle bereinigt: Nennung interner Repositories entfernt (`epstein-network` bereinigt, `research-line` auf `functional-stability-theory`, `abc-hct`, `crm-cosmology`, `rh-even-dominance` aktualisiert; `ellmos-ai` auf `n8n-manager-mcp` und `marblerun` synchronisiert; `dev-bricks` geschärft).
+- **Zweisprachige Badges & Parität:** Header-Badges auf `Verified-2026--10--03-blue` (EN) und `Geprüft-2026--10--03-blue` (DE) aktualisiert.
+- **Automatisierte Vertragstests (`tests/test_profile_parity.py`):** Testsuite auf 11/11 Tests erweitert inklusive `test_verification_badges()` und `test_ecosystem_zero_leak_hardening()` (100% grün). `profile_privacy.ps1` bestanden (0 Leaks).
+
 ## [2026-09-26]
 
 ### Added & Updated

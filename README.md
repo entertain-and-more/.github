@@ -2,16 +2,16 @@
 
 This repository provides the public organization profile and shared community-health defaults for [entertain-and-more](https://github.com/entertain-and-more).
 
-Checked **2026-09-26**: the root README, profile READMEs (English and German), and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
+Checked **2026-10-03**: the root README, profile READMEs (English and German), and `llms.txt` index every public repository currently visible in the organization. Private or internal repositories are not listed in the public start page.
 
 ## Current Public Index
 
 | Repository | Role | Last public push | Discovery handle |
 |---|---|---|---|
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme tabletop RPG control center for game masters, maps, sound, player screens, and LLM control | 2026-10-03 | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `JSON-RPC LLM control` |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast production tool with local recording, planning, live transcription, teleprompter, and AI monitor workflows | 2026-10-02 | `KlangpultLight`, `podcast recorder`, `podcast planner`, `live transcription`, `teleprompter` |
 | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess, Minimax bot, optional Claude API mode, and Claude Code worker integration | 2026-09-22 | `ChatAndChess terminal chess`, `Python Minimax chess`, `Claude Code chess worker` |
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme tabletop RPG control center for game masters, maps, sound, player screens, and LLM control | 2026-09-25 | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `JSON-RPC LLM control` |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast production tool with local recording, planning, live transcription, teleprompter, and AI monitor workflows | 2026-09-26 | `KlangpultLight`, `podcast recorder`, `podcast planner`, `live transcription`, `teleprompter` |
-| [.github](https://github.com/entertain-and-more/.github) | Public organization profile, shared issue templates, PR template, llms.txt, and community health files | 2026-09-26 | `entertain-and-more`, `GitHub org README`, `llms.txt public repo directory` |
+| [.github](https://github.com/entertain-and-more/.github) | Public organization profile, shared issue templates, PR template, llms.txt, and community health files | 2026-10-03 | `entertain-and-more`, `GitHub org README`, `llms.txt public repo directory` |
 
 ## Files & Structure
 
@@ -29,4 +29,4 @@ Checked **2026-09-26**: the root README, profile READMEs (English and German), a
 | [SECURITY.md](SECURITY.md) | Security reporting guidance |
 | [tests/](tests/) | Automated contract tests and profile parity test suite |
 
-The public directory covers 3 software applications plus this `.github` infrastructure repository. No public repository is missing from the profile directory as of the 2026-09-26 live GitHub API check.
+The public directory covers 3 software applications plus this `.github` infrastructure repository. No public repository is missing from the profile directory as of the 2026-10-03 live GitHub API check.
