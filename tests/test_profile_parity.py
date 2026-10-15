@@ -73,6 +73,21 @@ def test_public_repo_inventory():
             assert repo in content, f'Public repo "{repo}" missing from {rel_path}'
 
 
+def _assert_public_profile(content):
+    public_names = {name.lower() for name in PUBLIC_REPOS}
+    pattern = (
+        r"https://(?:github\.com/|raw\.githubusercontent\.com/|api\.github\.com/repos/)"
+        r"entertain-and-more/([A-Za-z0-9_.-]+)"
+    )
+    for name in re.findall(pattern, content, flags=re.IGNORECASE):
+        if name.lower() not in public_names:
+            raise AssertionError("Non-public repository reference")
+    for private_name in PRIVATE_REPOS:
+        pattern = rf"(?<![A-Za-z0-9_-]){re.escape(private_name)}(?![A-Za-z0-9_-])"
+        if re.search(pattern, content, flags=re.IGNORECASE):
+            raise AssertionError("Non-public repository reference")
+
+
 def test_private_repo_leak_guard():
     """Verify 0 private/internal repos are leaked into public profile documents."""
     target_files = [
@@ -85,15 +100,7 @@ def test_private_repo_leak_guard():
     ]
     for rel_path in target_files:
         content = get_file_content(rel_path)
-        for priv in PRIVATE_REPOS:
-            pattern = rf"(?<![A-Za-z0-9_-]){re.escape(priv)}(?![A-Za-z0-9_-])"
-            assert not re.search(pattern, content, flags=re.IGNORECASE), (
-                f'Leak violation: private repo "{priv}" found in {rel_path}'
-            )
-
-        # Ensure standalone private Klangpult (not KlangpultLight) is not referenced
-        klangpult_matches = re.findall(r"\bKlangpult\b(?!Light)", content)
-        assert len(klangpult_matches) == 0, f'Leak violation: standalone private "Klangpult" found in {rel_path}'
+        _assert_public_profile(content)
 
 
 def test_check_timestamp_parity():
@@ -111,6 +118,20 @@ def test_check_timestamp_parity():
 
     llms_content = get_file_content("llms.txt")
     assert expected_iso in llms_content
+
+
+@pytest.mark.parametrize("reference", [
+    "synthetic-denied-repo",
+    "https://github.com/entertain-and-more/synthetic-unlisted-repo",
+    "https://raw.githubusercontent.com/entertain-and-more/synthetic-unlisted-repo/main/x",
+    "https://api.github.com/repos/entertain-and-more/synthetic-unlisted-repo",
+])
+def test_private_guard_rejects_without_disclosing_identifier(monkeypatch, reference):
+    monkeypatch.setitem(globals(), "PRIVATE_REPOS", ["synthetic-denied-repo"])
+    monkeypatch.setitem(globals(), "get_file_content", lambda _path: reference)
+    with pytest.raises(AssertionError) as failure:
+        test_private_repo_leak_guard()
+    assert str(failure.value) == "Non-public repository reference"
 
 
 def test_activity_snapshot_integrity():
@@ -184,4 +205,4 @@ def test_ecosystem_zero_leak_hardening():
     ]
     for rel_path in target_files:
         content = get_file_content(rel_path)
-        assert "epstein-network" not in content, f"Leaked internal repo found in {rel_path}"
+        _assert_public_profile(content)
