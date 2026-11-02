@@ -2,6 +2,21 @@
 
 All notable changes to the `entertain-and-more/.github` organization profile repository will be documented in this file.
 
+## [2026-11-02]
+
+### Added & Updated
+- **Org Profile Health & Startseiten-Audit (Routine: GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):** Vollständige Revalidierung des Organisationsprofils gegen die Live-GitHub-API am 2026-11-02.
+- **Öffentliches Inventar & Zero-Leak-Sicherheit:** Bestätigung von exakt 4 öffentlichen Repositories (`rpx`, `KlangpultLight`, `ChatAndChess`, `.github`); alle 19 internen Repositories verbleiben strikt ungenannt (Zero-Leak-Invariante zu 100% gewahrt, 0 Leaks).
+- **Live-Aktivitäts-Snapshot 2026-11-02:** Aktualisierte öffentliche Pushdaten und Feature-Synchronisation:
+  - `rpx`: Letzter Push am `2026-11-02` (`c2c6ebb`: WCAG 2.1 AA Tastaturnavigation, Shortcuts-Dialog, dynamische Retranslation, atmosphärische Signalsequenz-Diagramme, P3 Cross-Platform Smoke Runner, 20/20 Topics)
+  - `ChatAndChess`: Letzter Push am `2026-11-02` (`5f0acf1`: SAN-Zugeingabe, PGN-Partieexport, In-Game-Befehle, CLI-Flags, PEP 621/639 CI-Härtung, 20/20 Topics)
+  - `KlangpultLight`: Letzter Push am `2026-11-01` (`c8229f4`: Planer HTTP-Proxy Resilienz, Socket-Leak-Schutz, Eventlog-Härtung, PEP 621 Metadaten, 20/20 Topics)
+  - `.github`: Stand geprüft und synchronisiert am `2026-11-02` (20/20 Topics)
+- **Showcase & Discoverability:** Bannerkarten-Layout vereinheitlicht (responsive 700px Breite mit 16px Abstand). SEO-Suchbegriffe um SAN-Schachnotation, PGN-Partieexport, barrierefreie WCAG 2.1 AA Rollenspiel-Steuerung und Tastaturnavigation erweitert.
+- **Ökosystem-Netzwerk:** Geschwistertabelle synchronisiert (`dev-bricks` um kanonisches `companion-for-agy` ergänzt gem. D-20261030-011, `um-bruch` aktualisiert).
+- **Zweisprachige Badges & Parität:** Header-Badges auf `Verified-2026--11--02-blue` (EN) und `Geprüft-2026--11--02-blue` (DE) aktualisiert.
+- **Automatisierte Vertragstests (`tests/test_profile_parity.py` & `tests/profile_privacy.ps1`):** Testsuite auf den neuen Datumsstempel `2026-11-02` synchronisiert (11/11 Tests bestanden, 100% grün). `profile_privacy.ps1` erfolgreich validiert (0 Leaks). `lint_mermaid.py` bestanden (0 Syntaxfehler).
+
 ## [2026-10-03]
 
 ### Added & Updated

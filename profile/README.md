@@ -11,7 +11,7 @@
   <a href="https://github.com/entertain-and-more/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-brightgreen?style=flat-square&logo=security" alt="Security SLA: 48h Response" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM--Context-llms.txt-orange?style=flat-square" alt="LLM Context: llms.txt" /></a>
-  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Verified-2026--10--03-blue?style=flat-square" alt="Verified 2026-10-03" /></a>
+  <a href="https://github.com/entertain-and-more"><img src="https://img.shields.io/badge/Verified-2026--11--02-blue?style=flat-square" alt="Verified 2026-11-02" /></a>
   <a href="https://github.com/entertain-and-more/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
 </p>
 
@@ -24,7 +24,7 @@
 entertain-and-more is the entertainment and media tooling branch of the `open-bricks` and `ellmos` ecosystem. Its public repositories focus on practical, inspectable local-first software: terminal chess, tabletop role-playing support systems (rpx), and local podcast production tooling (KlangpultLight). Every public application is built to keep user data local while offering optional AI enhancement layers for players, game masters, and creators.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-10-03**. Every public repository visible in `entertain-and-more` (3 active software projects plus 1 profile repository) is indexed here. Private or internal work is intentionally omitted.
+> **Public Navigation Index:** Refreshed against live GitHub API metadata on **2026-11-02**. Every public repository visible in `entertain-and-more` (3 active software projects plus 1 profile repository) is indexed here. Private or internal work is intentionally omitted.
 
 > [!TIP]
 > **Local-First & Offline Resilience:** The public applications in `entertain-and-more` operate fully offline by default. AI features such as Anthropic API modes, Claude Code file-worker integration, JSON-RPC control bridges, and live transcription are optional layers designed to enhance play and production workflows without requiring cloud lock-in for core functions.
@@ -34,18 +34,18 @@ entertain-and-more is the entertainment and media tooling branch of the `open-br
 The banners are the links; details in the tables below.
 
 <p align="center">
-  <a href="https://github.com/entertain-and-more/rpx"><img src="https://raw.githubusercontent.com/entertain-and-more/rpx/master/assets/banner.svg" alt="rpx — RolePlay Xtreme" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
-  <a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight — podcast recorder" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
-  <a href="https://github.com/entertain-and-more/ChatAndChess"><img src="https://raw.githubusercontent.com/entertain-and-more/ChatAndChess/master/README/screenshots/gameplay.jpg" alt="ChatAndChess — Terminal Chess & Tactics Analyzer" width="680" style="border:2px solid #f59e0b;border-radius:8px;display:block;margin:0 auto"></a>
+  <a href="https://github.com/entertain-and-more/rpx"><img src="https://raw.githubusercontent.com/entertain-and-more/rpx/master/assets/banner.svg" alt="rpx — RolePlay Xtreme" width="700" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/entertain-and-more/KlangpultLight"><img src="https://raw.githubusercontent.com/entertain-and-more/KlangpultLight/main/docs/assets/banner.svg" alt="KlangpultLight — podcast recorder" width="700" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/entertain-and-more/ChatAndChess"><img src="https://raw.githubusercontent.com/entertain-and-more/ChatAndChess/master/README/screenshots/gameplay.jpg" alt="ChatAndChess — Terminal Chess & Tactics Analyzer" width="700" style="border:2px solid #f59e0b;border-radius:8px;display:block;margin:0 auto"></a>
 </p>
 
 ## Start Here
 
 | Need | Repository | Best Entry Point |
 |---|---|---|
-| Play or study a Python chess game with local play, Minimax, and optional Claude modes | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Rules, tactics analyzer (`chess_analyze.py`), worker mode (`--worker`), and test workflow |
-| Run a tabletop RPG control center for sessions, maps, music, player screens, and AI prompts | [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro dashboard, campaign bundle (`rpx-campaign-bundle-v1`), JSON-RPC, and PWA companion |
-| Record and plan a podcast episode locally (freeware funnel edition) | [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Recorder + Planer quickstart, live transcription, teleprompter, AI monitor |
+| Play or study a Python chess game with local play, Minimax, and optional Claude modes | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Rules, SAN move notation, PGN game export, tactics analyzer (`chess_analyze.py`), worker mode (`--worker`), and test workflow |
+| Run a tabletop RPG control center for sessions, maps, music, player screens, and AI prompts | [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro dashboard, WCAG 2.1 AA keyboard navigation, shortcuts dialog, campaign bundle (`rpx-campaign-bundle-v1`), JSON-RPC, and PWA companion |
+| Record and plan a podcast episode locally (freeware funnel edition) | [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Recorder + Planer quickstart, live transcription, teleprompter, AI monitor, resilient HTTP proxy, and socket leak protection |
 | Understand this organization profile and shared community files | [.github](https://github.com/entertain-and-more/.github) | Organization profile, issue templates, PR template, community health files, and `llms.txt` |
 
 ## System Architecture & Interaction Flow
@@ -75,14 +75,14 @@ graph TD
 
 ## Public Repository Directory
 
-Checked **2026-10-03**: the public organization currently contains 3 software applications plus 1 profile repository.
+Checked **2026-11-02**: the public organization currently contains 3 software applications plus 1 profile repository.
 
 | Project | Focus | Stack | Discovery Terms | Public Activity |
 |---|---|---|---|---|
-| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, and import/exportable campaign bundles (`rpx-campaign-bundle-v1`) with offline PWA companion | Python, PySide6, JSON-RPC, static PWA companion | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control`, `soundboard` | Public repo; last push **2026-10-03** |
-| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast/streaming production tool with an optional commercial edition — local audio/video recording, system-audio capture, live transcription, episode planning, teleprompter, AI monitor | Python, PySide6 (Recorder), Python/HTTP (Planer) | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production`, `live transcription`, `teleprompter`, `USB podcast studio freeware` | Public repo; last push **2026-10-02** |
-| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth (1–5), optional Claude API mode, Claude Code worker mode (`chess.py --worker`), full chess rules, UCI input, engine-hint modes, and tactics analyzer (`chess_analyze.py`) | Python standard library, optional Anthropic API | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer`, `AI chess bot` | Public repo; last push **2026-09-22** |
-| [.github](https://github.com/entertain-and-more/.github) | Organization profile, shared issue templates, PR template, `llms.txt`, and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory`, `community templates` | Public profile repo; checked **2026-10-03** |
+| [rpx](https://github.com/entertain-and-more/rpx) | RPX Pro / RolePlay Xtreme: offline tabletop RPG control center for worlds, maps, characters, sound, player screens, AI prompts, JSON-RPC control, WCAG 2.1 AA keyboard navigation, shortcuts dialog, dynamic retranslation, and import/exportable campaign bundles (`rpx-campaign-bundle-v1`) with offline PWA companion | Python, PySide6, JSON-RPC, static PWA companion, WCAG 2.1 AA | `RPX Pro`, `RolePlay Xtreme`, `tabletop RPG control center`, `game-master tools`, `rpx-campaign-bundle-v1`, `offline RPG PWA`, `JSON-RPC LLM control`, `soundboard`, `WCAG 2.1 AA RPG`, `keyboard navigation`, `shortcuts dialog` | Public repo; last push **2026-11-02** |
+| [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) | Free Recorder + Planer podcast/streaming production tool with an optional commercial edition — local audio/video recording, system-audio capture, live transcription, episode planning, teleprompter, AI monitor, resilient HTTP proxy, and socket leak protection | Python, PySide6 (Recorder), Python/HTTP (Planer), PEP 621 | `KlangpultLight`, `podcast recorder`, `podcast planner`, `local podcast production`, `live transcription`, `teleprompter`, `USB podcast studio freeware`, `audio mixer console`, `offline podcast studio` | Public repo; last push **2026-11-01** |
+| [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) | Terminal chess with local play, Minimax depth (1–5), optional Claude API mode, Claude Code worker mode (`chess.py --worker`), full chess rules, SAN move notation, PGN export, in-game commands, CLI flags, UCI input, engine-hint modes, and tactics analyzer (`chess_analyze.py`) | Python standard library, optional Anthropic API, PEP 621/639 | `terminal chess`, `Python Minimax chess`, `Claude Code chess worker`, `SAN chess notation`, `PGN export`, `UCI chess moves`, `engine hint chess`, `chess tactics analyzer`, `AI chess bot`, `terminal game` | Public repo; last push **2026-11-02** |
+| [.github](https://github.com/entertain-and-more/.github) | Organization profile, shared issue templates, PR template, `llms.txt`, and community defaults | GitHub profile repo | `entertain-and-more`, `organization profile`, `llms.txt`, `public repo directory`, `community templates` | Public profile repo; checked **2026-11-02** |
 
 ## Ecosystem Network
 
@@ -94,7 +94,7 @@ Checked **2026-10-03**: the public organization currently contains 3 software ap
 | [ellmos-ai](https://github.com/ellmos-ai) | AI Agent Infrastructure | `bach`, `rinnsal`, `MarbleRun`, `skills`, `n8n-manager-mcp` |
 | [file-bricks](https://github.com/file-bricks) | Desktop Data Tools | `ProFiler`, `ExplorerPro`, `ProSync`, `AmpelClip`, `ProfiPrompt` |
 | [doc-bricks](https://github.com/doc-bricks) | Document & Media Systems | `DokuReader`, `MediaBrain`, `UniversalInvoiceMail`, `CleanMarkdown` |
-| [dev-bricks](https://github.com/dev-bricks) | Developer & Code Tools | `DevCenter`, `CodeBox`, `pythonbox`, `app-rotator`, `apiprober` |
+| [dev-bricks](https://github.com/dev-bricks) | Developer & Code Tools | `DevCenter`, `CodeBox`, `pythonbox`, `companion-for-agy`, `app-rotator`, `apiprober` |
 | [research-line](https://github.com/research-line) | Open Science & Math Physics | `functional-stability-theory`, `crm-cosmology`, `rh-even-dominance`, `abc-hct`, `fst-nash` |
 | [biotec-line](https://github.com/biotec-line) | Bioinformatics | `VFDistiller`, `genotype-to-vcf` |
 | [entertain-and-more](https://github.com/entertain-and-more) | Games, RPG & Podcast Tools | `ChatAndChess`, `rpx`, `KlangpultLight` |
@@ -106,15 +106,15 @@ Checked **2026-10-03**: the public organization currently contains 3 software ap
 
 ### Board games and AI-assisted play
 
-- [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) explores a compact terminal chess interface with chat-driven interaction patterns. It is useful as a lightweight Python game codebase, a rules-and-engine testbed, and a playground for AI-assisted play modes, including Claude API play and file-based Claude Code worker runs.
+- [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) explores a compact terminal chess interface with chat-driven interaction patterns. It provides a lightweight Python game codebase, rules-and-engine testbed, SAN move notation, PGN game export, in-game commands, and a playground for AI-assisted play modes, including Claude API play and file-based Claude Code worker runs.
 
 ### Tabletop RPG and game-master tooling
 
-- [rpx](https://github.com/entertain-and-more/rpx) (RolePlay Xtreme) is a local-first control center for pen-and-paper role-playing sessions. It centers the human game master and supports practical session work such as maps, ambience, notes, character state, missions, a second-screen player view, JSON-RPC control for LLM workflows, import/exportable `rpx-campaign-bundle-v1` ZIP files, and an offline PWA companion.
+- [rpx](https://github.com/entertain-and-more/rpx) (RolePlay Xtreme) is a local-first control center for pen-and-paper role-playing sessions. It centers the human game master and supports practical session work such as maps, ambience, notes, character state, missions, a second-screen player view, WCAG 2.1 AA keyboard navigation with a shortcuts dialog, dynamic UI retranslation, atmospheric signal sequence diagrams, JSON-RPC control for LLM workflows, import/exportable `rpx-campaign-bundle-v1` ZIP files, and an offline PWA companion.
 
 ### Local podcast production
 
-- [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) is the free Recorder + Planer podcast production tool with an optional commercial edition. It pairs a PySide6 desktop Recorder (system-audio/video capture, live transcription) with a browser-based Planer (episode and asset planning, teleprompter, AI monitor).
+- [KlangpultLight](https://github.com/entertain-and-more/KlangpultLight) is the free Recorder + Planer podcast production tool with an optional commercial edition. It pairs a PySide6 desktop Recorder (system-audio/video capture, live transcription) with a browser-based Planer (episode and asset planning, teleprompter, AI monitor), reinforced with HTTP proxy resilience, socket leak protection, and PEP 621 packaging metadata.
 
 ## Design Principles
 
@@ -131,4 +131,4 @@ Checked **2026-10-03**: the public organization currently contains 3 software ap
 - Related AI infrastructure: [ellmos-ai](https://github.com/ellmos-ai)
 - Broader software suite: [open-bricks](https://github.com/open-bricks)
 
-Search phrases that lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `offline RPG campaign bundle`, `KlangpultLight podcast recorder`, `local podcast production freeware`, `live transcription teleprompter`, `USB podcast studio freeware`, `entertain-and-more`.
+Search phrases that lead here: `ChatAndChess terminal chess`, `Python Minimax chess tactics analyzer`, `Claude Code chess worker`, `SAN chess notation Python`, `PGN chess game export`, `UCI chess moves Python`, `RPX Pro tabletop RPG control center`, `RolePlay Xtreme game master tools`, `WCAG 2.1 AA tabletop RPG`, `RPX keyboard navigation`, `offline RPG campaign bundle`, `KlangpultLight podcast recorder`, `local podcast production freeware`, `live transcription teleprompter`, `USB podcast studio freeware`, `entertain-and-more`.
