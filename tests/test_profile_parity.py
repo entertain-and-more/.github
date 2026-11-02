@@ -97,8 +97,8 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-10-03 across profile files."""
-    expected_iso = "2026-10-03"
+    """Verify verification date 2026-11-02 across profile files."""
+    expected_iso = "2026-11-02"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -122,7 +122,7 @@ def test_activity_snapshot_integrity():
         assert repo in en_content
         assert repo in de_content
 
-    for date in ["2026-10-03", "2026-10-02", "2026-09-22"]:
+    for date in ["2026-11-02", "2026-11-01"]:
         assert date in en_content
         assert date in de_content
 
@@ -170,8 +170,8 @@ def test_verification_badges():
     """Verify date-stamped verification badges in profile READMEs."""
     en_content = get_file_content("profile/README.md")
     de_content = get_file_content("profile/README_de.md")
-    assert "Verified-2026--10--03-blue" in en_content
-    assert "Geprüft-2026--10--03-blue" in de_content
+    assert "Verified-2026--11--02-blue" in en_content
+    assert "Geprüft-2026--11--02-blue" in de_content
 
 
 def test_ecosystem_zero_leak_hardening():
